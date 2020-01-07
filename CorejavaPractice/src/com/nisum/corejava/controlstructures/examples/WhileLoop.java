@@ -6,6 +6,7 @@ public class WhileLoop
 {
 	public static void main( String[] args )
 	{
+		//taking inputs from keyboard
 		Scanner keyboard = new Scanner(System.in);
 		int pin = 12;
 
@@ -21,5 +22,7 @@ public class WhileLoop
 		}
 
 		System.out.println("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.");
+		keyboard.close();
 	}
+	
 }
