@@ -25,7 +25,6 @@ public class CollectionsClassDemo {
     	
     	Collections.reverse(num); //can reverse the whole elements
     	System.out.println(num);
-    	
-    	Collections.
+
     }
 }

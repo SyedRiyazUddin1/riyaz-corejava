@@ -1,10 +1,5 @@
 package com.nisum.corejava.string.examples;
 
-import java.util.logging.Logger;
-
-import org.apache.log4j.BasicConfigurator;
-
-
 
 public class ExampleString {
 public static void main (String[] args) {

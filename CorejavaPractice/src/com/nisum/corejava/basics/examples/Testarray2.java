@@ -1,4 +1,4 @@
-package com.nisum.corejava.string.examples;
+package com.nisum.corejava.basics.examples;
 
 //Java Program to demonstrate the way of passing an array  
 //to method.  

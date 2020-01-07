@@ -5,6 +5,11 @@ import java.util.Scanner; //importing Scanner Class
 
 class InvalidAgeException extends Exception {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public InvalidAgeException() {
 		super("Invalid Age!  ||| try a valid age");
         // created a constructor that can pass a String to the parent class method using
