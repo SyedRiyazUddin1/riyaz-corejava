@@ -1,15 +1,5 @@
 package com.nisum.corejava.exceptions;
 
-//creating a user-defined exception class below
-
-class InvalidAgeException extends Exception {
-	public InvalidAgeException() {
-		super("Invalid age exception ||| try a valid age");
-		// created a constructor that can pass a String to the parent class method using
-		// a "super" keyword
-	}
-}
-
 class ExceptionTest {
 	// Created a method in this class which generates an exception named
 	// "InvalidAgeException" which we thrown below

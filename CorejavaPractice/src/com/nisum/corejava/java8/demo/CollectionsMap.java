@@ -1,4 +1,4 @@
-package java8.poc;
+package com.nisum.corejava.java8.demo;
 
 import java.util.ArrayList;
 import java.util.HashMap;
