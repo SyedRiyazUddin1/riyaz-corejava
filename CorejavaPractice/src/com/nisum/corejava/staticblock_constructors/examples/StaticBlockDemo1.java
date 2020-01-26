@@ -1,5 +1,5 @@
 //program to create a static block
-package com.nisum.corejava.staticblock.examples;
+package com.nisum.corejava.staticblock_constructors.examples;
 
 public class StaticBlockDemo1 {
 

@@ -1,6 +1,6 @@
 //program of values overwriting in multiple static blocks
 
-package com.nisum.corejava.staticblock.examples;
+package com.nisum.corejava.staticblock_constructors.examples;
 
 public class MultipleStaticBlocks {
 
