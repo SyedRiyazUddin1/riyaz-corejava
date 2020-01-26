@@ -2,6 +2,10 @@ package com.nisum.corejava.collectionsframework;
 
 import java.util.Collections;
 import java.util.Vector;
+import java.util.logging.Logger;
+
+import com.nisum.corejava.util.MyLogger;
+import org.apache.log4j.BasicConfigurator;
 
 public class CollectionsClassDemo {
     public static void main (String []args) {
@@ -25,6 +29,10 @@ public class CollectionsClassDemo {
     	
     	Collections.reverse(num); //can reverse the whole elements
     	System.out.println(num);
+
+		MyLogger.consoleLogger.info("Log4j configured successfully");
+
+
 
     }
 }

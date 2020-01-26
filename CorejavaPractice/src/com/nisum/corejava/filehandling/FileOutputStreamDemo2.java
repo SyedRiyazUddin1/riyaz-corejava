@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 public class FileOutputStreamDemo2 {
 	public static void main(String args[]) {
 		try {
-			FileOutputStream fout = new FileOutputStream("D:\\Java Programs\\TestOut2.txt");
+			FileOutputStream fout = new FileOutputStream("D:\\Java Programs\\TestOut3.xlsx");
 			String s = "Welcome to javaWorld";
 			byte b[] = s.getBytes();// converting string into byte array
 			fout.write(b);

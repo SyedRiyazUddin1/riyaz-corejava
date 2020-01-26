@@ -1,7 +1,7 @@
 package com.nisum.corejava.exceptions;
 import java.util.Scanner; //Importing Scanner class
 
-//Exception program (checking)
+//Exception program (checking in GitHub)
 class IncorrectPinException extends Exception {
 	public IncorrectPinException() {
 		super("Incorrect Pin!  ||| Enter a valid pin");

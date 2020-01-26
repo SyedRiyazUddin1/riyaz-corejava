@@ -6,7 +6,7 @@ public class FileOutputStreamDemo1 {
 	public static void main(String args[]) {
 		try {
 			FileOutputStream fout = new FileOutputStream("D:\\Java Programs\\TestOut.txt");
-			fout.write(65);
+			fout.write(69);
 			fout.close();
 			System.out.println("success...");
 		} catch (Exception e) {
