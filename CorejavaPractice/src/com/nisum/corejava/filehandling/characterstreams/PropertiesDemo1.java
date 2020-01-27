@@ -1,4 +1,4 @@
-package com.nisum.corejava.filehandling.bytestreams;
+package com.nisum.corejava.filehandling.characterstreams;
 
 import java.util.Properties; //importing Properties class
 import java.io.*;
