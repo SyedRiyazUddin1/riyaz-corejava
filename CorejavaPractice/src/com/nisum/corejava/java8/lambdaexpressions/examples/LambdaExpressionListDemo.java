@@ -6,16 +6,17 @@ import java.util.function.Consumer;
 
 public class LambdaExpressionListDemo {
 	public static void main(String[] args) {
+		//creating list of integers
 		List<Integer> values = Arrays.asList(1, 2, 3, 4, 5, 6);
 
 //		Using Consumer Interface
-		Consumer<Integer> c = new Consumer<Integer>() {
+		Consumer<Integer> con = new Consumer<Integer>() {
 
 		public void accept(Integer i) {
 				System.out.println(i);
 			}
 		};
-//		values.forEach(c);
+//		values.forEach(con);
 
 //		code concise using Lambda expression
 		values.forEach((i) -> System.out.println(i));

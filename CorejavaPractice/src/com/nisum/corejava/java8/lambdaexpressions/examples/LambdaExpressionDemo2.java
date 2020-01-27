@@ -1,5 +1,7 @@
+//Simple program using lamda expression
 package com.nisum.corejava.java8.lambdaexpressions.examples;
 
+//creating Functional interface which will have only 1 abstract method
 interface Drawable {
 	public void draw();
 }

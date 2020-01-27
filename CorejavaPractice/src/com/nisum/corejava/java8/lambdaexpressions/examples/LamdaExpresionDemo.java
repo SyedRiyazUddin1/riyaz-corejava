@@ -1,3 +1,5 @@
+//Simple program using lambda expression
+
 package com.nisum.corejava.java8.lambdaexpressions.examples;
 
 interface FunctInterface { // functional interface with 1 abstract method
