@@ -20,7 +20,7 @@ public class Stream2ListConversion {
 //	         stream.forEach(i -> System.out.println(i)); can't reuse the stream, will get IllegalStateException here.
 
 		// converting Stream to List again and , multiplying it and collecting
-		List<Integer> evenNumbersList = stream.filter(numbers -> numbers % 2 == 0) // filtering only even numbers
+		List<Integer> evenNumbersList = stream.filter(num -> num % 2 == 0) // filtering only even numbers
 																						// list
 				.map(s -> s * s)// multiplying the list by 2
 				.distinct().skip(3) // skips the starting three objects
