@@ -10,7 +10,7 @@ public class DeserializeDemo {
          ObjectInputStream in = new ObjectInputStream(fileIn);
          e = (EmployeeDemo) in.readObject();
          in.close();
-         fileIn.close();
+
       } catch (IOException i) {
          i.printStackTrace();
          return;

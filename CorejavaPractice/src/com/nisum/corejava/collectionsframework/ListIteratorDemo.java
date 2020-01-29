@@ -1,5 +1,6 @@
 package com.nisum.corejava.collectionsframework;
 import java.util.*;
+import java.util.function.Predicate;
 
 public class ListIteratorDemo {
 public static void main (String args[]) {

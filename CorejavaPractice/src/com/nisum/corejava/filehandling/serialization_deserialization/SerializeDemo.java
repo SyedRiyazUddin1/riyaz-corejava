@@ -17,7 +17,7 @@ public class SerializeDemo {
          out.close();
          
          fileOut.close();
-         System.out.printf("Serialized data is saved in D:\\Java Programs\\Serialize Demo.txt");
+         System.out.println("Serialized data is saved in D:\\Java Programs\\Serialize Demo.txt");
       } catch (IOException i) {
          i.printStackTrace();
       }
