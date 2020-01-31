@@ -23,8 +23,8 @@ public class StreamBuilder {
 
 		// creating stream of List
 		List<Integer> list = new ArrayList<Integer>();
-		for (int i = 0; i <= 8; i++) {
-			list.add(i);
+		for (int loop = 0; loop <= 8; loop++) {
+			list.add(loop);
 		}
 		Stream<Integer> stream2 = list.stream();
 		System.out.println("List.stream()");

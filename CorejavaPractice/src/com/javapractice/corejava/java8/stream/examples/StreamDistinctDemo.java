@@ -3,7 +3,6 @@ package com.javapractice.corejava.java8.stream.examples;
 import java.util.Arrays;
 
 import com.javapractice.corejava.util.MyLogger;
-import com.nisum.corejava.util.*;
 import java.util.List;
 import java.util.stream.Collectors;
 

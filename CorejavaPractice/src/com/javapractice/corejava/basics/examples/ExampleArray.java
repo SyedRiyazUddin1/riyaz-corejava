@@ -4,9 +4,7 @@ import java.util.*;
 
 public class ExampleArray {
 	public void main(String[] args) {
-		
-		
-		
+
 		int myArray [] [] = {{1,2,3,4},{1,2}}; 
 		int arr[] = new int[5];
 		Scanner sc = new Scanner(System.in);

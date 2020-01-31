@@ -1,5 +1,6 @@
 package com.javapractice.corejava.java8.stream.examples;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -7,12 +8,10 @@ import java.util.stream.Stream;
 
 public class Stream2SetConversion {
 	public static void main(String[] args) {
-		Set<String> EmpNames = new HashSet<String>();
-		EmpNames.add("RIYAZ");
-		EmpNames.add("Avinash");
-		EmpNames.add("Rohit");
-		EmpNames.add("Riz");
-		
+
+		String []myArray = {"Riyaz", "Avinash","Rohit","Riz"};
+		Set<String> EmpNames = new HashSet<>(Arrays.asList(myArray));
+
 		Stream<String> streamOfEmpNames = EmpNames.stream(); //created a stream of Employee Names
 		
 		//Now, lets perform some operation on these stream and convert it back to Set
