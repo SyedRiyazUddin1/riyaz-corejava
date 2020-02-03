@@ -54,8 +54,8 @@ public class StreamOperationsDemo {
 		// "O"and convert it back into List
 
 		List<String> NamesStartWithOList = productsList.stream()
-				.map(function -> function.ProductName)
-				.filter(function -> function.startsWith("X"))
+				.map(function -> function.ProductName) // fetching product names
+				.filter(function -> function.startsWith("O")) //filtering products starting with letter "X"
 				.collect(Collectors.toList());
 		System.out.println("Product names starting with \"O letter:\n" +NamesStartWithOList);
 		

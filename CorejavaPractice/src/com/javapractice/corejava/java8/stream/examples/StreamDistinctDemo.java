@@ -11,7 +11,9 @@ public class StreamDistinctDemo {
 	public static void main(String[] args) {
 		
 		List<Integer> numberList=Arrays.asList(1,2,3,4,1,23,3,2,8);
-		List<Integer> evenNumbers= numberList.stream().filter(n -> n%2 ==0).distinct().limit(2).collect(Collectors.toList());
+		List<Integer> evenNumbers= numberList.stream().filter(n -> n%2 ==0)
+				.distinct() //filters unique
+				.limit(2).collect(Collectors.toList());
 		
 		MyLogger.consoleLogger.info("Even numbers from the numberList are :"+evenNumbers);
 
