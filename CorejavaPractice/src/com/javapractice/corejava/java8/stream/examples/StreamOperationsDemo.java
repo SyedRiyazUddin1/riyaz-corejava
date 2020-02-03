@@ -18,6 +18,9 @@ class Product {
 		this.ProductName = ProductName;
 		this.ProductPrice = ProductPrice;
 	}
+	public String toString() {
+		return "Products: productId=" + ProducId + " productName=" + ProductName + " price =" + ProductPrice;
+	}
 }
 
 //Main class
@@ -39,7 +42,7 @@ public class StreamOperationsDemo {
 		System.out.println("Product List with Price and Id Details");
 		
 		
-		productsList.forEach(product -> System.out.println(product));
+		productsList.forEach(product -> System.out.println(product.toString()));
 		
 			// Lets create a stream of Product Prices by fetching all the prices and convert
 		// it back into List
