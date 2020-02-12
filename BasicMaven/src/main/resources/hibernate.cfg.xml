@@ -20,6 +20,11 @@
         <!--shows sql query in console -->
         <property name="show_sql">true</property>
         <mapping resource="employee.hbm.xml"/>
+
+        <mapping class="com.hibernate.one_to_one_mapping.UserDetails"/>
+        <mapping class="com.hibernate.one_to_one_mapping.Vehicle"/>
+        <mapping class="com.hibernate.hql_and_Criteria.examples.Student"/>
+
     </session-factory>
 
 </hibernate-configuration>

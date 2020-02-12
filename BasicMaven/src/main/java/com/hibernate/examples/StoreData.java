@@ -1,3 +1,4 @@
+//CRUD Operations in Hibernate
 package com.hibernate.examples;
 
 import org.hibernate.cfg.Configuration;
@@ -12,7 +13,7 @@ public class StoreData {
 
         //step 1: Instantiate the object of Model class and set the values
         Employee employee;
-        employee = new Employee(117, "Zeeshan", "Khan");
+        //employee = new Employee(117, "Zeeshan", "Khan");
 
 
         //step 2: Create sessions from sessionFactory
@@ -24,7 +25,7 @@ public class StoreData {
 
         //step 4: saving the objects
         //session.save(employee);
-        session.getTransaction().commit();
+
         System.out.println("***Successfully saved***");
 
         //Retrieving/Reading objects using session get
@@ -32,10 +33,10 @@ public class StoreData {
         System.out.println("Employee details retrieved is " + employee.getFirstName());
 
         //Deleting objects from table
-        employee = (Employee) session.get(Employee.class, 110);
+        employee = (Employee) session.get(Employee.class, 115);
         session.delete(employee);
         System.out.println("Deleted successfully");
-
+        session.getTransaction().commit();
 
     }
 }
