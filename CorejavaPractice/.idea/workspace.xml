@@ -2,10 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbf85b9f-f399-4770-a7ec-53772eadaac9" name="Default Changelist" comment="CoreJava practice">
-      <change beforePath="$PROJECT_DIR$/ShoppingCartProject.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/Hibernate_Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Contract_Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Employee_IT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Fulltime_Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/HibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/src/main/java/com/util/MyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicMaven/src/main/resources/Employee_IT.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javapractice/corejava/java8/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javapractice/corejava/logicalprograms/CommonElementsInArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoHib/HibernateMaven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoHib/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoHib/src/EmployeeDemo1.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoHib/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/examples/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/examples/EmployeeDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/practice/examples/HibernateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/practice/examples/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoHib/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicMaven/BasicMaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicMaven/BasicMaven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_HQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicMaven/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicMaven/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicMaven/target/classes/Employee.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate_Practice/target/classes/Employee.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicMaven/target/classes/com/hibernate/examples/StoreData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicMaven/target/classes/com/hibernate/examples/StoreData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicMaven/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate_Practice/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CorejavaPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CorejavaPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javapractice/corejava/JDBC/examples/JDBCDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javapractice/corejava/JDBC/examples/JDBCDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javapractice/corejava/threads/executorService/examples/ExcecutorServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javapractice/corejava/threads/executorService/examples/ExcecutorServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCartProject/src/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCartProject/src/log4j.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
+    <ignored path="$PROJECT_DIR$/../DemoHib/target/" />
+    <ignored path="$PROJECT_DIR$/../BasicMaven/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,18 +75,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="158" />
+    <option name="myElementSize" value="155" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/ConsumerInterfaceDemo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_Criteria.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/logicalprograms/CommonElementsInArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Employee_IT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/resources/Employee_IT.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/HibTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_HQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Contract_Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Fulltime_Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/util/MyLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -49,64 +198,87 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/threads/priorities/examples/ThreadPriorityExample.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/threads/examples/ExampleRunnable.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/threads/examples/ExampleThread.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/threads/executorService/examples/ThreadOne.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/threads/executorService/examples/ExcecutorServiceDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/threads/executorService/examples/ExecutorServiceDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/CollectionsClassDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/HashCollisionDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/FileOutputStreamDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/FileOutputStreamDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/CustomClassAsKeyInMap/Student.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/CustomClassAsKeyInMap/Hashmapusing_CustomclassDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/WriteDataToExcel.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/WriteToExcelDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/FileInputStreamDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/serialization/EmployeeDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/basics2/examples/AdditionDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/basics2/examples/SqaureAreaDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/variables_datatypes/examples/VariablesDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/variables_datatypes/examples/MethodParamsDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/typecasting_conversion/TypeCastConvDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/variables_datatypes/examples/DataTypesDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/Classes_Objects/examples/ClassAndObjectDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/staticblock/examples/StaticBlockDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/staticblock/examples/MultipleStaticBlocks.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/staticblock_constructors/examples/MultipleStaticBlocks.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/staticblock_constructors/examples/ConstructorDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/garbagecollection_finalizemethod/examples/FinalizeMethodDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/exceptions/userdefinedexceptions/examples/InsufficientBalanceException.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/exceptions/userdefinedexceptions/examples/UserDefineExceptionTest.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/exceptions/BankAccount.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/exceptions/userdefinedexceptions/examples/BankAccount.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/exceptions/trycatchfinally/examples/TryCatchFinallyDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/characterstreams/ReadConsole.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/bytestreams/examples/characterstreams/ReadConsole.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/characterstreams/examples/ReadConsole.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/characterstreams/PropertiesDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/serialization_deserialization/EmployeeDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/serialization_deserialization/DeserializeDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/filehandling/serialization_deserialization/SerializeDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/lambdaexpressions/examples/LamdaExpresionDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/lambdaexpressions/examples/LambdaExpressionListDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/lambdaexpressions/examples/LambdaExpressionDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/demo/DefaultMethodDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/stream/examples/Stream2ListConversion.java" />
         <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/examples/DefaultMethodDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/ConsumerInterfaceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/ListIteratorDemo.java" />
         <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/ConsumerInterfaceDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/FunctionInterfaceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/PredicateIntefaceDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/ConsumerInterfaceDemo.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/com/nisum/corejava/log4j.xml" />
+        <option value="$PROJECT_DIR$/../ShoppingCartProject/src/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/lambdaexpressions/examples/LamdaExpresionDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/stream/examples/CollectorsSummingandCounting.java" />
+        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/stream/examples/Stream2ListConversion.java" />
+        <option value="$PROJECT_DIR$/src/com/nisum/corejava/java8/trainingsession/examples/PerformanceTest.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/basics/examples/ExampleArray.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/try_with_resources/examples/TryWithRdemo.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/try_with_resources/examples/TryWithResourcesDemo2.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/try_with_resources/examples/TryWithResourcesDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/Stream2ListConversion.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/Stream2SetConversion.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/StreamBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/threads/executorService/examples/ExcecutorServiceDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/StreamDistinctDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/StreamOperationsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/methodreference/examples/MethodReference.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/date_time_api/examples/DateTimeDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/methodreference/examples/MethodReferenceDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/JDBCDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/java8/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/../DemoHib/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/examples/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/JDBC/examples/JDBCDemo.java" />
+        <option value="$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/practice/examples/UserDetails.java" />
+        <option value="$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/practice/examples/HibernateTest.java" />
+        <option value="$PROJECT_DIR$/../DemoHib/pom.xml" />
+        <option value="$PROJECT_DIR$/../DemoHib/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/../Hibernate_Practice/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/logicalprograms/examples.java" />
+        <option value="$PROJECT_DIR$/../Hibernate_Practice/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_Main.java" />
+        <option value="$PROJECT_DIR$/../Hibernate_Practice/src/main/java/com/hibernate/hql_and_Criteria/examples/Student.java" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_Main.java" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_HQL.java" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/java/com/util/MyLogger.java" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_Criteria.java" />
+        <option value="$PROJECT_DIR$/src/com/javapractice/corejava/logicalprograms/CommonElementsInArrays.java" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Car.java" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Employee.java" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Contract_Employee.java" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Fulltime_Employee.java" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/resources/Employee_IT.hbm.xml" />
+        <option value="$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/HibTest.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HibernateMaven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HibernateMaven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
-    <option name="width" value="1890" />
+    <option name="x" value="927" />
+    <option name="y" value="51" />
+    <option name="width" value="1065" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -115,16 +287,88 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CorejavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicMaven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorejavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorejavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorejavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorejavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorejavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorejavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorejavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="Hibernate_Inheritence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorejavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ShoppingCartProject" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Nisum" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -132,16 +376,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.javapractice.corejava.JDBC.examples" />
+      <recent name="com.nisum.corejava.java8.trainingsession.examples" />
       <recent name="com.nisum.corejava.java8.functional_interfaces.examples" />
       <recent name="com.nisum.corejava.filehandling.characterstreams" />
       <recent name="com.nisum.corejava.filehandling.bytestreams" />
-      <recent name="com.nisum.corejava.filehandling.serialization_deserialization" />
-      <recent name="com.nisum.corejava.threads.Threadsynchronization" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.nisum.corejava.exceptions.userdefinedexceptions.examples" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sriyaz\git\riyaz-corejava\DemoHib\src\main\resources" />
       <recent name="C:\Users\sriyaz\git\riyaz-corejava\CorejavaPractice\src\com\nisum\corejava\exceptions\userdefinedexceptions\examples" />
     </key>
   </component>
@@ -157,26 +402,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyCart">
-    <configuration name="ConsumerInterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nisum.corejava.java8.functional_interfaces.examples.ConsumerInterfaceDemo" />
+  <component name="RunManager" selected="Application.HibTest">
+    <configuration name="CommonElementsInArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javapractice.corejava.logicalprograms.CommonElementsInArrays" />
       <module name="CorejavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nisum.corejava.java8.functional_interfaces.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerInterfaceDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nisum.corejava.java8.functional_interfaces.examples.ConsumerInterfaceDemo1" />
-      <module name="CorejavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nisum.corejava.java8.functional_interfaces.examples.*" />
+          <option name="PATTERN" value="com.javapractice.corejava.logicalprograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +429,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionInterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nisum.corejava.java8.functional_interfaces.examples.FunctionInterfaceDemo" />
-      <module name="CorejavaPractice" />
+    <configuration name="HibTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.Hibernate_Inheritence.HibTest" />
+      <module name="BasicMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nisum.corejava.java8.functional_interfaces.examples.*" />
+          <option name="PATTERN" value="com.hibernate.Hibernate_Inheritence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +442,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nisum.shoppingCartProject.MyCart" />
-      <module name="ShoppingCartProject" />
+    <configuration name="HibernateOne_OneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.one_to_one_mapping.HibernateOne_OneDemo" />
+      <module name="BasicMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nisum.shoppingCartProject.*" />
+          <option name="PATTERN" value="com.hibernate.one_to_one_mapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,34 +455,99 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateIntefaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nisum.corejava.java8.functional_interfaces.examples.PredicateIntefaceDemo" />
-      <module name="CorejavaPractice" />
+    <configuration name="Student_Criteria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.hql_and_Criteria.examples.Student_Criteria" />
+      <module name="BasicMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nisum.corejava.java8.functional_interfaces.examples.*" />
+          <option name="PATTERN" value="com.hibernate.hql_and_Criteria.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student_HQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.hql_and_Criteria.examples.Student_HQL" />
+      <module name="BasicMaven" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../Nisum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibernate.hql_and_Criteria.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="HibernateMaven" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="HibernateMaven" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.ExecutorServiceDemo" />
-      <item itemvalue="Application.ConsumerInterfaceDemo" />
-      <item itemvalue="Application.PredicateIntefaceDemo" />
-      <item itemvalue="Application.FunctionInterfaceDemo" />
-      <item itemvalue="Application.ConsumerInterfaceDemo1" />
-      <item itemvalue="Application.MyCart" />
+      <item itemvalue="Application.CommonElementsInArrays" />
+      <item itemvalue="Application.Student_HQL" />
+      <item itemvalue="Application.HibernateOne_OneDemo" />
+      <item itemvalue="Application.Student_Criteria" />
+      <item itemvalue="Application.HibTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyCart" />
-        <item itemvalue="Application.PredicateIntefaceDemo" />
-        <item itemvalue="Application.FunctionInterfaceDemo" />
-        <item itemvalue="Application.ConsumerInterfaceDemo" />
-        <item itemvalue="Application.ConsumerInterfaceDemo1" />
+        <item itemvalue="Application.HibTest" />
+        <item itemvalue="Application.CommonElementsInArrays" />
+        <item itemvalue="Application.Student_Criteria" />
+        <item itemvalue="Application.Student_HQL" />
+        <item itemvalue="Application.HibernateOne_OneDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -370,13 +667,80 @@
       <option name="project" value="LOCAL" />
       <updated>1580277895051</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="CoreJava practice">
+      <created>1580279526747</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580279526747</updated>
+    </task>
+    <task id="LOCAL-00017" summary="CoreJava practice">
+      <created>1580305299184</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1580305299184</updated>
+    </task>
+    <task id="LOCAL-00018" summary="CoreJava practice">
+      <created>1580463832723</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1580463832723</updated>
+    </task>
+    <task id="LOCAL-00019" summary="CoreJava practice">
+      <created>1580707817454</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1580707817455</updated>
+    </task>
+    <task id="LOCAL-00020" summary="CoreJava practice">
+      <created>1580720224771</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1580720224771</updated>
+    </task>
+    <task id="LOCAL-00021" summary="CoreJava practice">
+      <created>1580739799887</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1580739799887</updated>
+    </task>
+    <task id="LOCAL-00022" summary="CoreJava practice">
+      <created>1580792976402</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1580792976402</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2020.02.12 at 18h 16m 12s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2020.02.12 at 18h 16m 20s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27935222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2834008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,26 +748,55 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.30017763" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" weight="0.053285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4991119" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26642984" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.30017763" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.07282416" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3285968" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49878544" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32388663" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32955465" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27854252" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" weight="0.13676731" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4991119" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.07282416" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49878544" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32388663" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32955465" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CoreJava practice" />
@@ -413,7 +806,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/HashCollisionDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/com/javapractice/corejava/collectionsframework/HashCollisionDemo.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="4" />
@@ -424,6 +817,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CorejavaPractice$ThreadDemo1.ic" NAME="ThreadDemo1 Coverage Results" MODIFIED="1578993364433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.nisum.corejava.threads.examples.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CorejavaPractice$AppTest_shouldAnswerWithTrue.ic" NAME="AppTest.shouldAnswerWithTrue Coverage Results" MODIFIED="1581511578138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.maven.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/CorejavaPractice$HashCollisionDemo.ic" NAME="HashCollisionDemo Coverage Results" MODIFIED="1579695104404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.nisum.corejava.collectionsframework.*</FILTER>
@@ -437,380 +833,394 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/garbagecollection_finalizemethod/examples/FinalizeMethodDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/Stream2SetConversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/exceptions/InvalidAgeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/exceptions/MultipleCatchBlock1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/exceptions/UserDefineExceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/exceptions/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/exceptions/userdefinedexceptions/examples/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/exceptions/userdefinedexceptions/examples/InsufficientBalanceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/exceptions/trycatchfinally/examples/TryCatchFinallyDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/exceptions/userdefinedexceptions/examples/UserDefineExceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/bytestreams/FileInputStreamDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/bytestreams/FileInputStreamDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/bytestreams/FileOutputStreamDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/bytestreams/FileOutputStreamDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/characterstreams/PropertiesDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="147">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/characterstreams/examples/ReadConsole.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/StreamBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/StreamDistinctDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/StreamDistinctMethodDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/StreamFromFileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/serialization_deserialization/EmployeeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/serialization_deserialization/DeserializeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/serialization_deserialization/SerializeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/demo/MyComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/characterstreams/WriteDataToExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/filehandling/characterstreams/WriteToExcelDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/lambdaexpressions/examples/MyComparator.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/lambdaexpressions/examples/LamdaExpresionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/stream/examples/Stream2ListConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/demo/DefaultMethodDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/examples/DefaultMethodDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/demo/Lambda.java">
+    <entry file="file://$PROJECT_DIR$/../ShoppingCartProject/src/com/nisum/shoppingCartProject/MyCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/lambdaexpressions/examples/LambdaExpressionDemo2.java">
+    <entry file="file://$PROJECT_DIR$/../ShoppingCartProject/src/com/nisum/shoppingCartProject/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="137">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/lambdaexpressions/examples/LambdaExpressionListDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/StreamOperationsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="102">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/examples/ConsumerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/methodreference/examples/MethodReference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="-17">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/CollectionsClassDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/date_time_api/examples/DateTimeDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="167" column="7" selection-start-line="167" selection-start-column="7" selection-end-line="167" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/methodreference/examples/MethodReferenceDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/methodreference/examples/MethodReferenceDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/methodreference/examples/MethodReferenceExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/lambdaexpressions/examples/LambdaExpressionListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/stream/examples/Stream2ListConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/java8/ArrayListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3281">
+          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/examples/EmployeeDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/examples/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/src/EmployeeDemo1.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/HibernateMaven.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/DemoHib.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.6.Final/hibernate-core-4.3.6.Final.jar!/org/hibernate/internal/SessionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="567" selection-start-line="567" selection-end-line="567" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/practice/examples/HibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/src/main/java/com/hibernate/practice/examples/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoHib/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/JDBC/examples/JDBCDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/test/java/com/maven/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/resources/Employee.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/examples/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/DequeueDemo.java">
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/examples/StoreData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-23">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/Employee.java">
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/one_to_one_mapping/HibernateOne_OneDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/util/MyLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/ExampleLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_Criteria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="119">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/ExampleCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/FileExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/FOutDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/HashCollisionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/HashMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/HashSetExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/IteratorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/collectionsframework/ListIteratorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/ConsumerInterfaceDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/FunctionInterfaceDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javapractice/corejava/logicalprograms/CommonElementsInArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/function/Predicate.java">
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Employee_IT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/PredicateIntefaceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/examples/ForEachDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../Nisum/eclipse-workspace/ShoppingCartProject/src/com/nisum/shoppingCartProject/MyCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nisum/corejava/java8/functional_interfaces/examples/ConsumerInterfaceDemo.java">
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/resources/Employee_IT.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/hql_and_Criteria/examples/Student_HQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Contract_Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/Fulltime_Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/util/MyLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicMaven/src/main/java/com/hibernate/Hibernate_Inheritence/HibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -831,6 +1241,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -864,7 +1275,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ShoppingCartProject</last-edited>
+          <last-edited>BasicMaven</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -888,6 +1299,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

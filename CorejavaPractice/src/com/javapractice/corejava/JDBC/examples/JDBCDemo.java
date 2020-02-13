@@ -6,37 +6,58 @@ import com.javapractice.corejava.util.MyLogger;
 
 //Step 1: importing the package (java.sql.*;)
 import java.sql.*;
+import java.util.Scanner;
 
 public class JDBCDemo {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws SQLException {
 
         String url = "jdbc:mysql://localhost:3306/mydatabase";
         String username = "root";
         String password = "root";
-        String query;
-        query = "SELECT * from mydatabase.student_details where student_id=3";
+        String query = "SELECT * from mydatabase.student_details where student_id=4";
+
+//        Scanner scanner = new Scanner(System.in);
+//        MyLogger.consoleLogger.info("Please enter the query");
+//
+//        String query = scanner.nextLine();
+//
+//        query+=scanner.nextLine();
+//        scanner.close();
+//        MyLogger.consoleLogger.info(query);
 
         //Step 2: loading and registering the driver
         //registering the driver with forName method
-        Class.forName("com.mysql.cj.jdbc.Driver");
 
-        //establishing the connection with interface "Connection"
-        Connection con = DriverManager.getConnection(url, username, password);
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
 
-        //creating the statement
-        Statement st = con.createStatement();
+        Statement statement = null;
+        Connection connection = null;
+        try {
+            //establishing the connection with interface "Connection"
+            connection = DriverManager.getConnection(url, username, password);
 
-        //processing the results
-        ResultSet rs = st.executeQuery(query);
+            //creating the statement
+            statement = connection.createStatement();
 
-        rs.next();
-        String name = rs.getString("student_name");
+            //processing the results
+            ResultSet rs = statement.executeQuery(query);
 
-        MyLogger.consoleLogger.info(name);
+            rs.next();
+            String name = rs.getString("student_name");
+
+            MyLogger.consoleLogger.info(name);
+
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
 
         //closing the Connection and Statement
-        st.close();
-        con.close();
+        statement.close();
+        connection.close();
 
 
     }

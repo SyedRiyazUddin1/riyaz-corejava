@@ -10,6 +10,7 @@ class ThreadOne implements Runnable {
         int count;
         for (count = 0; count <= 3; count++)
             System.out.println("Thread of ThreadOne " + count);
+
     }
 }
 
