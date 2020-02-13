@@ -24,6 +24,7 @@
         <mapping class="com.hibernate.one_to_one_mapping.UserDetails"/>
         <mapping class="com.hibernate.one_to_one_mapping.Vehicle"/>
         <mapping class="com.hibernate.hql_and_Criteria.examples.Student"/>
+        <mapping resource="Employee_IT.hbm.xml"/>
 
     </session-factory>
 
