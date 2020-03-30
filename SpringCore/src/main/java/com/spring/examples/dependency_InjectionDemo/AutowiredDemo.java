@@ -1,6 +1,6 @@
 package com.spring.examples.dependency_InjectionDemo;
 
-//autowired example
+//Autowired example
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

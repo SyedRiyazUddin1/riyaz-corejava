@@ -12,7 +12,7 @@ public class Mobile {
 //        simCard.calling();
 //        simCard.data();
 
-        //This class should be configurable without changing the source code
+        //This Class should be configurable without changing the source code
         //We are not going to create objects now, spring IOC can create objects for us
 
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");

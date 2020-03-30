@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfiguration {
 
 //    @Bean
-//    public RedmiMobile getPhone(){
+////    public RedmiMobile getPhone(){
 //        return new RedmiMobile();
 //    }
 //

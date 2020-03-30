@@ -3,7 +3,7 @@ package com.spring.examples.Config_and_Annotations.examples;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-//Spring core annotations
+/// Spring core annotations
 
 public class MainApp {
 

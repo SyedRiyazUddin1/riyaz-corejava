@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Samsung implements SimCard{
 
-//    public Samsung(){
+////    public Samsung(){
 //        System.out.println("Samsung constructor called");
 //    }
     @Override
