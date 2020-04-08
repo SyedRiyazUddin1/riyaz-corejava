@@ -6,4 +6,3 @@ public class MyLogger {
 	public static final Logger consoleLogger = Logger.getLogger("consoleLogger");
 
 }
-
