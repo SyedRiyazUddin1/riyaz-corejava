@@ -1,5 +1,7 @@
 package com.corejava.collectionframework;
 
+import com.corejava.util.MyLogger;
+
 public class Employee {
 
 	private Integer id;
@@ -33,7 +35,7 @@ public class Employee {
 	}
 
 	public boolean equals(Object o) {
-		System.out.println("In equals " + "value is :" + this.id);
+		MyLogger.consoleLogger.info("In equals " + "value is :" + this.id);
 		Employee employee = (Employee) o;
 		if (employee.getName().equals(this.id)) {
 			return true;
@@ -43,7 +45,7 @@ public class Employee {
 
 	@Override
 	public int hashCode() {
-		System.out.println("In hashcode " + "value is :" + this.id);
+		MyLogger.consoleLogger.info("In hashcode " + "value is :" + this.id);
 		int hash = 3;
 		hash = 7 * hash + this.id.hashCode();
 		return hash;

@@ -2,6 +2,8 @@ package com.corejava.controlstructures;
 
 import java.util.Scanner;
 
+import com.corejava.util.MyLogger;
+
 public class WhileLoopDemo {
 	
 	public static void main(String[] args) {
@@ -9,16 +11,16 @@ public class WhileLoopDemo {
 		Scanner keyboard = new Scanner(System.in);
 		int pin = 12;
 
-		System.out.println("WELCOME TO THE STATE BANK OF INDIA.\n ENTER YOUR PIN: ");
+		MyLogger.consoleLogger.info("WELCOME TO THE STATE BANK OF INDIA.\n ENTER YOUR PIN: ");
 	
 		int entry = keyboard.nextInt();
 
 		while (entry != pin) {
-			System.out.println("\nINCORRECT PIN. TRY AGAIN.\n ENTER YOUR PIN: ");
+			MyLogger.consoleLogger.info("\nINCORRECT PIN. TRY AGAIN.\n ENTER YOUR PIN: ");
 			entry = keyboard.nextInt();
 		}
 
-		System.out.println("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.");
+		MyLogger.consoleLogger.info("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.");
 		keyboard.close();
 	}
 

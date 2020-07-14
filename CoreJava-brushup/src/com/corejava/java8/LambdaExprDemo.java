@@ -1,5 +1,7 @@
 package com.corejava.java8;
 
+import com.corejava.util.MyLogger;
+
 interface FunctInterface { // functional interface with 1 abstract method
 	public void show();
 }
@@ -28,7 +30,7 @@ public class LambdaExprDemo {
 
 		// removed the curly brackets from the above lambda expression because there is
 		// only one line.
-		obj = () -> System.out.println("Hello");
+		obj = () -> MyLogger.consoleLogger.info("Hello");
 
 		obj.show();
 

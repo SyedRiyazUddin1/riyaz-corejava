@@ -16,7 +16,6 @@
 			</resource>
 		</resources>
 
-
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -31,6 +30,7 @@
 	</build>
 
 	<dependencies>
+
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
