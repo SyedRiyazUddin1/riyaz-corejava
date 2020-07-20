@@ -14,12 +14,12 @@ public class LambdaExprDemo {
 
 		// Java 7 implementation below
 		/*
-		 * obj = new FunctInterface() 
+		 * obj = new FunctInterface()
 		 * 
 		 * //defining the show method
-		 *  
-		 *  { public void show() {
-		 * here System.out.println("Hello"); } };
+		 * 
+		 * { public void show() { 
+		 * System.out.println("Hello"); } };
 		 */
 
 		// Lambda expression below
