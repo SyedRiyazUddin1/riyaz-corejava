@@ -1,6 +1,6 @@
 package com.corejava.logicprograms;
 
-//Checking Whether a Number is Positive or Negative, also find even/odd
+//Checking Whether a Number is Positive or Negative, also find even/odd.
 import com.corejava.util.MyLogger;
 
 public class PositiveNegativeNumCheckDemo {

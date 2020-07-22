@@ -17,10 +17,6 @@ public class PalindromeStringDemo {
 		else {
 			MyLogger.consoleLogger.info("String is NOT Palindrome");
 		}
-		
-		//another way
-		
-		
 
 	}
 }

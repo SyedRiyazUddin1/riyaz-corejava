@@ -6,8 +6,8 @@ public class StringsEqualDemo {
 
 	public static void main(String[] args) {
 
-		String s1 = "Riyaz";
-		String s2 = "rIyAz";
+		String s1 = "Syed";
+		String s2 = "sYeD";
 
 		if (s1.equalsIgnoreCase(s2) == true) {
 
