@@ -16,6 +16,7 @@ public class Stream2ListConversion {
 			EmpList.add(loop);
 		}
 		Stream<Integer> stream = EmpList.stream(); // created stream of List
+		
 
 //	         stream.forEach(num -> System.out.println(num)); can't reuse the stream, we will get IllegalStateException here.
 

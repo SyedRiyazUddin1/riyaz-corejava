@@ -22,11 +22,11 @@ public class EvenNumberListDemo {
 		       int even=number.get(i)%2;       
 		        if (even==0){
 		            System.out.println("This is Even Number:"+ number.get(i));
-		            number.remove(i);
+		            //number.remove(i);
 		        }    
 		    }
 
-		    Collections.sort(number);
+		    //Collections.sort(number);
 		    System.out.println("Sorted List: "+number);
 	}
 }

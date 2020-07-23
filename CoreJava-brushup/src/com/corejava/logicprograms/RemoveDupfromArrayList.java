@@ -13,7 +13,7 @@ public class RemoveDupfromArrayList {
 
 	public static void main(String args[]) {
 
-		// creating ArrayList with duplicate elements
+		// creating ArrayList with duplicate elements.
 		List<Integer> primes = new ArrayList<Integer>();
 
 		primes.add(2);
