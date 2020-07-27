@@ -40,7 +40,7 @@ public class ComparatorLambdaDemo {
 		// using Lambda Expression, sorting in descending order
 		Comparator<Integer> comp = (num1, num2) -> (num1 < num2) ? 1 : (num1 > num2) ? -1 : 0;
 
-		Collections.sort(myList, comp);
+		Collections.sort(myList, comp); 
 
 		MyLogger.consoleLogger.info(myList);
 
