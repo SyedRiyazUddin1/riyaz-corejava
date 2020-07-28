@@ -24,15 +24,23 @@ public class Test {
 		myList.add(7);
 		myList.add(3);
 
-		List<Integer> resultList = myList.stream().distinct().filter(num -> num % 2 == 0).collect(Collectors.toList());
+		List<Integer> resultList = myList.stream()
+				.distinct() //removing duplicates from the list
+				.filter(num -> num % 2 == 0) //filtering only even numbers
+				.collect(Collectors.toList()); //collecting stream to a new list
 
+		
+		//adding an array in StringBuilder
 		StringBuilder sb = new StringBuilder();
 		for (Integer num : resultList) {
 			sb.append(num);
 		}
-
+		
+		//reversing the string builder and converting it to String
 		String str1 = sb.toString();
 		String str2 = sb.reverse().toString();
+		
+		//comparing the two strings and checking if it is palindrome or not
 
 		if (str1.equalsIgnoreCase(str2) == true) {
 
