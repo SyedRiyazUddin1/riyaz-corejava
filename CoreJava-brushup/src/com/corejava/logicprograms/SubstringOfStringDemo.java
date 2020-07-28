@@ -1,4 +1,5 @@
 package com.corejava.logicprograms;
+//Printing the substring of a string
 
 import com.corejava.util.MyLogger;
 

@@ -1,6 +1,6 @@
 package com.corejava.logicprograms;
 
-//Program to reverse an array
+//Program to reverse an array.
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
