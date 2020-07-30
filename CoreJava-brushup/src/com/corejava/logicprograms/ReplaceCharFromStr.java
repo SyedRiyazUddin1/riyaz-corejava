@@ -2,7 +2,7 @@ package com.corejava.logicprograms;
 
 import com.corejava.util.MyLogger;
 
-//placing characters from a String and to lowercase it
+//placing characters from a String and to lowercase it.
 
 public class ReplaceCharFromStr {
 

@@ -14,13 +14,13 @@ public class ArrayListToArrayString {
 			arrlist.add("Python");
 			arrlist.add("Data Science");
 
-			// Converting an arrayList to an array
+			// Converting an arrayList to an array.
 			String array[] = new String[arrlist.size()];
 			for (int loop = 0; loop < arrlist.size(); loop++) {
 				array[loop] = arrlist.get(loop);
 			}
 
-			/* Displaying Array elements */
+			/* Displaying Array elements. */
 			for (String str : array) {
 				MyLogger.consoleLogger.info(str);
 			}
