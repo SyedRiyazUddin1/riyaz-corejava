@@ -1,7 +1,10 @@
 package com.corejava.java8.streams;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.DoubleSummaryStatistics;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -44,6 +47,7 @@ public class FindMatchUsingStreamsDemo {
 
 		List<Product1> productList = new ArrayList<Product1>();
 		productList.add(new Product1("Redmi Mobile", 30000));
+		productList.add(new Product1("Vivo Mobile", 30000));
 		productList.add(new Product1("iPhone", 60000));
 		productList.add(new Product1("Samsung Note10", 70001));
 		productList.add(new Product1("OnePlus 6T", 38000));
@@ -124,7 +128,8 @@ public class FindMatchUsingStreamsDemo {
 		MyLogger.consoleLogger
 				.info("Getting the maximum value using Double class's max method: " + maxValue.orElse(0.0));
 
-		/** USING COLLECTORS
+		/**
+		 * USING COLLECTORS
 		 * 
 		 * Getting the count of even numbers from the product's prices
 		 */
@@ -138,21 +143,70 @@ public class FindMatchUsingStreamsDemo {
 		double sum2 = productList.stream().filter(product2 -> product2.getPrice() % 2 == 0)
 				.collect(Collectors.summingDouble(Product1::getPrice));
 		MyLogger.consoleLogger.info(sum2);
-		
+
 		/**
 		 * Averaging all the even numbers from the product's prices
 		 */
 		double avg = productList.stream().filter(product2 -> product2.getPrice() % 2 == 0)
 				.collect(Collectors.averagingDouble(Product1::getPrice));
 		MyLogger.consoleLogger.info(avg);
-		
+
 		/**
 		 * Getting the MAX price from the product's prices
 		 */
-		double maxPrice = productList.stream().filter(product2 -> product2.getPrice() % 2 == 0)
-				.collect(Collectors.averagingDouble(Product1::getPrice));
-		MyLogger.consoleLogger.info("MAX price from the product's list: "+maxPrice);
-		
+		Comparator<Product1> numComp = Comparator.comparingDouble(p -> p.getPrice());
+		Optional<Product1> maxPrice = productList.stream().collect(Collectors.maxBy(numComp));
+		MyLogger.consoleLogger.info("MAX price from the product's list: " + maxPrice);
+		/**
+		 * Getting the MIN price from the product's prices
+		 */
+		Optional<Product1> minPrice = productList.stream().collect(Collectors.minBy(numComp));
+		MyLogger.consoleLogger.info("MIN price from the product's list: " + minPrice.orElse(product1));
+
+		/**
+		 * Summarizing
+		 */
+		DoubleSummaryStatistics statistics = productList.stream()
+				.collect(Collectors.summarizingDouble(p -> p.getPrice()));
+
+		MyLogger.consoleLogger.info("MIN Statistics: " + statistics.getMin());
+		MyLogger.consoleLogger.info("MAX Statistics: " + statistics.getMax());
+
+		// printing the list in descending order based on the price
+		List<Product1> newList = productList.stream().sorted(
+				(num1, num2) -> (num1.getPrice() < num2.getPrice()) ? 1 : (num1.getPrice() > num2.getPrice()) ? -1 : 0)
+				.collect(Collectors.toList());
+		MyLogger.consoleLogger.info("List in descending order based on the price " + newList);
+
+		// Get the second highest (already sorted above)
+		MyLogger.consoleLogger.info("Product with second highest price " + newList.get(1));
+
+		// Get the product with second lowest price
+		MyLogger.consoleLogger.info("Product with second lowest price " + newList.get(newList.size() - 2));
+
+		// String Joining without Separator
+		String joiningOutput1 = productList.stream().map(p -> p.getName()).collect(Collectors.joining());
+		MyLogger.consoleLogger.info("Joining all the product names from the list without separator " + joiningOutput1);
+
+		// String Joining with Separator
+		String joiningOutput2 = productList.stream().map(p -> p.getName()).collect(Collectors.joining(", "));
+		MyLogger.consoleLogger.info("Joining all the product names from the list with separator " + joiningOutput2);
+
+		// GROUP BY
+		// Count of similar prices:
+		Map<Object, Long> typeMapCount = productList.stream()
+				.collect(Collectors.groupingBy(p -> p.getPrice(), Collectors.counting()));
+		MyLogger.consoleLogger.info("Count of similar objects: " + typeMapCount);
+
+		// Summing objects of similar prices:
+		Map<Object, Double> typeMapSumming = productList.stream()
+				.collect(Collectors.groupingBy(p -> p.getPrice(), Collectors.summingDouble(p -> p.getPrice())));
+		MyLogger.consoleLogger.info("Summing objects of similar prices: " + typeMapSumming);
+
+		// Collectors.partioningBy()
+		Map<Boolean, List<Product1>> result = productList.stream()
+				.collect(Collectors.partitioningBy(p -> p.getPrice() > 40000));
+		MyLogger.consoleLogger.info("Products with price>40K will come under true, Else, in false: " + result);
 
 	}
 
