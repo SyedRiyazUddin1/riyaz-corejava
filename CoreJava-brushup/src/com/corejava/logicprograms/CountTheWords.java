@@ -1,5 +1,7 @@
 package com.corejava.logicprograms;
 
+//program to count the words in a string
+
 public class CountTheWords {
 
 	public static void main(String[] args) {

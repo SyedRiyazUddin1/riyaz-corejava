@@ -37,7 +37,7 @@ public class IteratingMapUsingForEachandStream {
 						.collect(Collectors.toList());
 		MyLogger.consoleLogger.info(str1);
 
-		// iterating the map
+		// iterating the map.
 		employees.forEach((key, value) -> {
 			MyLogger.consoleLogger.info("Emp.Id: " + key + "," + "Employee Name: " + value);
 		});

@@ -1,5 +1,7 @@
 package com.corejava.logicprograms;
 
+//class to reverse a string
+
 public class ReverseString2 {
 
 	public static void main(String[] args) {

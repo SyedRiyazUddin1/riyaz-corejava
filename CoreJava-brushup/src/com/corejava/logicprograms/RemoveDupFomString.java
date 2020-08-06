@@ -1,5 +1,7 @@
 package com.corejava.logicprograms;
 
+//class to remove duplicates from a string
+
 public class RemoveDupFomString {
 	public static void main(String[] args) {
 		String str1 = "sssyed Riyazzz";
