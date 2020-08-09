@@ -11,6 +11,9 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.condition.EnabledOnOs;
@@ -32,6 +35,7 @@ class MathUtilsTest {
 	@DisplayName("mutiply method")
 	void testMultiply() {
 		// assertEquals(4, mathUtils.multiply(2,2),"should return the right product");
+		// assertAll is used to run a bunch of assertions
 		assertAll(() -> assertEquals(4, mathUtils.multiply(2, 2)), () -> assertEquals(0, mathUtils.multiply(2, 0)),
 				() -> assertEquals(0, mathUtils.multiply(0, 2)));
 	}
@@ -59,20 +63,25 @@ class MathUtilsTest {
 
 	// test for divide method
 	@Test
+	@Tag("Math") // helps in runnning only selective tests which has a tag,can selective in the
+					// IDE configuration
 	void testDevide() {
 		assertThrows(ArithmeticException.class, () -> mathUtils.divide(1, 0), "Divide by zero should throw");
 	}
 
 	// test for computeCircleRadius method
-	@Test
+	@RepeatedTest(3) // replaced @Test, the test will repeat for 3 times
 	void testComputeCircleRadius() {
 		assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), "Should return right circle area");
 	}
 
 	@Test
+	@Tag("Math") // helps in runnning only selective tests which has a tag, can selective in the
+					// IDE configuration
 	void testDivide() {
 		boolean isServerUp = false;
-		assumeTrue(isServerUp);
+		assumeTrue(isServerUp); // assumeTrue(); which tells that I am assuming this value to be true. For ex,
+								// if the server is down, i am assume true that the server is up!
 		assertThrows(ArithmeticException.class, () -> mathUtils.divide(1, 0), "Divide by zero should throw");
 	}
 
@@ -91,5 +100,29 @@ class MathUtilsTest {
 	void testComputeCircleRadius1() {
 		assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), "Should return right circle area");
 	}
+
+	/*
+	 * The below class will group all the similar kind of tests in one test result
+	 * using @Nested annotation
+	 */
+	@Nested
+	class AddTest {
+
+		@Test
+		@DisplayName("Testing add method for +ve")
+		void testAddPositive() {
+			assertEquals(2, mathUtils.add(1, 1), "The add method should add two numbers");
+		}
+
+		@Test
+		@DisplayName("Testing add method for -ve")
+		void testAddNegative() {
+			assertEquals(-2, mathUtils.add(-1, -1), "The add method should add two numbers");
+		}
+	}
+
+	// apart from the above stuff, Junit also has interfaces named TestInfo and
+	// TestReporter which are used to get the info of the text like test name and te
+	// tag name, for examp,e
 
 }
