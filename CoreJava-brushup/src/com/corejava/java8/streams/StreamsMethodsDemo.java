@@ -30,7 +30,7 @@ public class StreamsMethodsDemo {
 		long noOfElements = newList.stream().count();
 		MyLogger.consoleLogger.info("Number of elements: "+noOfElements);
 
-		// Descending order, for ascending, just need to write sorted() with no args
+		// Descending order, for ascending, just need to write sorted() with no args.
 
 		List<Integer> descendOrderList = numbersList.stream()
 				.sorted((num1, num2) -> ((num1 < num2) ? 1 : (num1 > num2) ? -1 : 0)).collect(Collectors.toList());

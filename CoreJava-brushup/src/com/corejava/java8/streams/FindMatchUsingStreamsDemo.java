@@ -1,7 +1,6 @@
 package com.corejava.java8.streams;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.DoubleSummaryStatistics;
 import java.util.List;
@@ -220,9 +219,11 @@ public class FindMatchUsingStreamsDemo {
 				.collect(Collectors.toList());
 		MyLogger.consoleLogger.info("Product name starts with R :" + evenNumIndexProducts);
 
-		String str[] = {"Avinash Edamadakala Riyaz Uddin"};
-		List<String> stream = Arrays.asList(str).stream().filter(p->p.indexOf(i%2==0)).collect(Collectors.toList());
-		
+//		String str[] = {"Avinash Edamadakala Riyaz Uddin"};
+//		List<String> stream = Arrays.asList(str).stream().filter(p->p.indexOf(i%2==0)).collect(Collectors.toList());
+//		
+		List<Product1> pList = productList.stream().filter(p->p.getPrice()>=38000).collect(Collectors.toList());
+		MyLogger.consoleLogger.info(pList);
 
 	}
 

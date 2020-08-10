@@ -24,7 +24,7 @@ public class Stream2ListConversion {
 		List<Integer> evenNumbersList = stream.filter(numbers -> numbers % 2 == 0) // filtering only even numbers
 																					// list
 				.map(numbers -> numbers * numbers)// multiplying the list by 2
-				.distinct().skip(3) // skips the starting three objects
+				.distinct().skip(3) // skips the starting three objects.
 				.collect(Collectors.toList()); // Collecting the stream and converting it in list
 		System.out.println(evenNumbersList);
 

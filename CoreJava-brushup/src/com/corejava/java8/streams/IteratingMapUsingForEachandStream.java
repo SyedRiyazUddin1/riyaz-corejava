@@ -22,25 +22,24 @@ public class IteratingMapUsingForEachandStream {
 
 		MyLogger.consoleLogger.info(employees);
 
-		//converting map to List (only values)
+		// converting map to List (only values).
 		List<String> str = employees.values().stream()
 //				.filter(p -> p.toUpperCase().startsWith("A"))
-				.map(p->p.concat(" Engineer"))
-				.collect(Collectors.toList());
+				.map(p -> p.concat(" Engineer")).collect(Collectors.toList());
 		MyLogger.consoleLogger.info(str);
 
-		
-		//converting map to List (only keys)
-				List<Integer> str1 = employees.keySet().stream().filter(p->p>=105)
+		// converting map to List (only keys)
+		List<Integer> str1 = employees.keySet().stream().filter(p -> p >= 105)
 //						.sorted((num1,num2)->(num1<num2)?1:num1>num2?-1:0)
-						.sorted((num1,num2)->-num1.compareTo(num2))
-						.collect(Collectors.toList());
+				.sorted((num1, num2) -> -num1.compareTo(num2)).collect(Collectors.toList());
 		MyLogger.consoleLogger.info(str1);
 
 		// iterating the map
 		employees.forEach((key, value) -> {
 			MyLogger.consoleLogger.info("Emp.Id: " + key + "," + "Employee Name: " + value);
 		});
+		
+
 	}
 
 }

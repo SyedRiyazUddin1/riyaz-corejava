@@ -34,6 +34,7 @@ public class MapMethodStreams {
 		
 		//adding 10 grace marks to everyone
 		List<Integer> graceMarks = studentList.stream().map(student->student.marks+10).collect(Collectors.toList());
+		 
 		
 		for(Student s1: studentList) {
 			MyLogger.consoleLogger.info("Students Info: Name: "+s1.name +", Marks: "+s1.rollno+", Roll.No: "+s1.marks );

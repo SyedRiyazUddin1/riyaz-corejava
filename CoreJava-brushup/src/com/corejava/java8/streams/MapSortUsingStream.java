@@ -1,8 +1,12 @@
 package com.corejava.java8.streams;
 
+//Program to sort Map by Value
+
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
+
+import com.corejava.util.MyLogger;
 
 public class MapSortUsingStream {
 
@@ -17,8 +21,8 @@ public class MapSortUsingStream {
 		/*
 		 * sorted() : It returns a stream sorted with given Comparator.
 		 */
-		System.out.println("---Sort by Map Value---");
+		MyLogger.consoleLogger.info("---Sort by Map Value---");
 		map.entrySet().stream().sorted(Comparator.comparing(Map.Entry::getValue))
-				.forEach(e -> System.out.println("Key: " + e.getKey() + ", Value: " + e.getValue()));
+				.forEach(e -> MyLogger.consoleLogger.info("Key: " + e.getKey() + ", Value: " + e.getValue()));
 	}
 }
