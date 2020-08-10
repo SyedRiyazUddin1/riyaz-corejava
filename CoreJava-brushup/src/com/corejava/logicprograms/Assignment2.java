@@ -15,19 +15,27 @@ public class Assignment2 {
 
 		String reverse1 = "";
 		String reverse2 = "";
+		String result = "";
 
-		for (int loop = str1.length()-1; loop >= 0; loop--) {
+		// reversing str1
+		for (int loop = str1.length() - 1; loop >= 0; loop--) {
 
 			reverse1 = reverse1 + str1.charAt(loop);
 		}
-
-		for (int loop = 0; loop >= str1.length(); loop--) {
-
-			reverse2 = reverse2 + str2.charAt(loop);
+		// reversing str2
+		for (int i = str2.length() - 1; i >= 0; i--) {
+			reverse2 = reverse2 + str2.charAt(i);
 		}
-		
-		System.out.println("reverse of string 1 : "+reverse1);
-		System.out.println(reverse2);
 
+		String combined = reverse1 + reverse2;
+		
+		//converting String to String array
+		
+		String strArray[]= new String[] {combined};
+		
+		 //print even indexed elements of String array
+		 for(int i=1; i < strArray.length; i=i+2){
+		 System.out.println(strArray[i]);
+		 }
 	}
 }

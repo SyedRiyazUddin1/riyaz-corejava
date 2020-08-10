@@ -207,6 +207,22 @@ public class FindMatchUsingStreamsDemo {
 		Map<Boolean, List<Product2>> result = productList.stream()
 				.collect(Collectors.partitioningBy(p -> p.getPrice() > 40000));
 		MyLogger.consoleLogger.info("Products with price>40K will come under true, Else, in false: " + result);
+		
+		// products starts with R letter
+				List<Product2> pnamesList = productList.stream().filter(p -> p.getName().startsWith("R"))
+						.collect(Collectors.toList());
+				MyLogger.consoleLogger.info("Product name starts with R :" + pnamesList);
+
+				// products which are on even index number (HAVE TO WORK)
+				List<Product2> evenNumIndexProducts = productList.stream().filter(p -> p.getName().length() % 2 == 0)
+						.collect(Collectors.toList());
+				MyLogger.consoleLogger.info("Product name starts with R :" + evenNumIndexProducts);
+
+//				String str[] = {"Avinash Edamadakala Riyaz Uddin"};
+//				List<String> stream = Arrays.asList(str).stream().filter(p->p.indexOf(i%2==0)).collect(Collectors.toList());
+//				
+				List<Product2> pList = productList.stream().filter(p -> p.getPrice() >= 38000).collect(Collectors.toList());
+				MyLogger.consoleLogger.info(pList);
 
 	}
 
