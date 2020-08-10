@@ -1,6 +1,7 @@
 package com.corejava.java8.streams;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.DoubleSummaryStatistics;
 import java.util.List;
@@ -135,26 +136,27 @@ public class FindMatchUsingStreamsDemo {
 		 */
 		double count = productList.stream().filter(product2 -> product2.getPrice() % 2 == 0)
 				.collect(Collectors.counting());
-		MyLogger.consoleLogger.info(count);
+		MyLogger.consoleLogger.info("Count of prices which are even :" + count);
 
 		/**
 		 * Summing all the even numbers from the product's prices
 		 */
 		double sum2 = productList.stream().filter(product2 -> product2.getPrice() % 2 == 0)
 				.collect(Collectors.summingDouble(Product1::getPrice));
-		MyLogger.consoleLogger.info(sum2);
+		MyLogger.consoleLogger.info("Summing all the even numbers from the product's prices: " + sum2);
 
 		/**
 		 * Averaging all the even numbers from the product's prices
 		 */
 		double avg = productList.stream().filter(product2 -> product2.getPrice() % 2 == 0)
 				.collect(Collectors.averagingDouble(Product1::getPrice));
-		MyLogger.consoleLogger.info(avg);
+		MyLogger.consoleLogger.info("Averaging all the even numbers from the product's prices: " + avg);
 
 		/**
 		 * Getting the MAX price from the product's prices
 		 */
 		Comparator<Product1> numComp = Comparator.comparingDouble(p -> p.getPrice());
+
 		Optional<Product1> maxPrice = productList.stream().collect(Collectors.maxBy(numComp));
 		MyLogger.consoleLogger.info("MAX price from the product's list: " + maxPrice);
 		/**
@@ -195,7 +197,7 @@ public class FindMatchUsingStreamsDemo {
 		// GROUP BY
 		// Count of similar prices:
 		Map<Object, Long> typeMapCount = productList.stream()
-				.collect(Collectors.groupingBy(p -> p.getPrice(), Collectors.counting()));
+				.collect(Collectors.groupingBy(p -> p.getName(), Collectors.counting()));
 		MyLogger.consoleLogger.info("Count of similar objects: " + typeMapCount);
 
 		// Summing objects of similar prices:
@@ -207,6 +209,20 @@ public class FindMatchUsingStreamsDemo {
 		Map<Boolean, List<Product1>> result = productList.stream()
 				.collect(Collectors.partitioningBy(p -> p.getPrice() > 40000));
 		MyLogger.consoleLogger.info("Products with price>40K will come under true, Else, in false: " + result);
+
+		// products starts with R letter
+		List<Product1> pnamesList = productList.stream().filter(p -> p.getName().startsWith("R"))
+				.collect(Collectors.toList());
+		MyLogger.consoleLogger.info("Product name starts with R :" + pnamesList);
+
+		// products which are on even index number (HAVE TO WORK)
+		List<Product1> evenNumIndexProducts = productList.stream().filter(p -> p.getName().length() % 2 == 0)
+				.collect(Collectors.toList());
+		MyLogger.consoleLogger.info("Product name starts with R :" + evenNumIndexProducts);
+
+		String str[] = {"Avinash Edamadakala Riyaz Uddin"};
+		List<String> stream = Arrays.asList(str).stream().filter(p->p.indexOf(i%2==0)).collect(Collectors.toList());
+		
 
 	}
 
