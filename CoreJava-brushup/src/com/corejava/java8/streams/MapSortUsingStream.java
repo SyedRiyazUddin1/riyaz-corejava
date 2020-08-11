@@ -19,7 +19,7 @@ public class MapSortUsingStream {
 		map.put(4, "Dog");
 
 		/*
-		 * sorted() : It returns a stream sorted with given Comparator.
+		 * Sorted(): It returns a stream sorted with given Comparator.
 		 */
 		MyLogger.consoleLogger.info("---Sort by Map Value---");
 		map.entrySet().stream().sorted(Comparator.comparing(Map.Entry::getValue))

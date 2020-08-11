@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 import com.corejava.util.MyLogger;
 
-class Product1 {
+class Product2 {
 	String name;
 	double price;
 
@@ -26,7 +26,7 @@ class Product1 {
 		this.price = price;
 	}
 
-	Product1(String name, double price) {
+	Product2(String name, double price) {
 		this.name = name;
 		this.price = price;
 	}
@@ -41,16 +41,16 @@ public class AddingTaxtoPriceUsingStream {
 
 	public static void main(String[] args) {
 
-		List<Product1> productList = new ArrayList<Product1>();
-		productList.add(new Product1("Redmi Mobile", 30000));
-		productList.add(new Product1("iPhone", 60000));
-		productList.add(new Product1("Samsung Note10", 40000));
-		productList.add(new Product1("OnePlus 6T", 38000));
+		List<Product2> productList = new ArrayList<Product2>();
+		productList.add(new Product2("Redmi Mobile", 30000));
+		productList.add(new Product2("iPhone", 60000));
+		productList.add(new Product2("Samsung Note10", 40000));
+		productList.add(new Product2("OnePlus 6T", 38000));
 
 		MyLogger.consoleLogger.info(productList);
 
 		// adding 12% tax to the price
-		List<Product1> newList = productList.stream().map(product -> {
+		List<Product2> newList = productList.stream().map(product -> {
 			double tax = product.getPrice() * 12 / 100;
 			product.setPrice(product.getPrice() + tax);
 			return product;
@@ -59,7 +59,7 @@ public class AddingTaxtoPriceUsingStream {
 		MyLogger.consoleLogger.info("Added 12% tax to the prices " + newList);
 
 		// adding 500 to all the price
-		List<Product1> newList1 = productList.stream().map(product -> {
+		List<Product2> newList1 = productList.stream().map(product -> {
 			product.setPrice(product.getPrice() + 500);
 			return product;
 		}).collect(Collectors.toList());
@@ -67,7 +67,7 @@ public class AddingTaxtoPriceUsingStream {
 		MyLogger.consoleLogger.info("Added 500 to the prices :" + newList1);
 
 		// changing each product name to UPPERCASE
-		List<Product1> newList2 = productList.stream().map(product -> {
+		List<Product2> newList2 = productList.stream().map(product -> {
 			product.setName(product.getName().toUpperCase());
 			return product;
 		}).collect(Collectors.toList());
