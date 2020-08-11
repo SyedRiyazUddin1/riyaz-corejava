@@ -22,5 +22,7 @@ public class AverageNumDemo {
 
 //printing average of given 3 numbers
 		MyLogger.consoleLogger.info("Average of above 3 numbers are :" + averagenum);
+		
+		input.close();
 	}
 }

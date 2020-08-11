@@ -34,7 +34,7 @@ public class Assignment2 {
 		String strArray[]= new String[] {combined};
 		
 		 //print even indexed elements of String array
-		 for(int i=1; i < strArray.length; i=i+2){
+		 for(int i=1; i < strArray.length; i=i){
 		 System.out.println(strArray[i]);
 		 }
 	}
