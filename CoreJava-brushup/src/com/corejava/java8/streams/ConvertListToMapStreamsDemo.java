@@ -1,9 +1,12 @@
 package com.corejava.java8.streams;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+
+import com.corejava.util.MyLogger;
 
 class Product {
 	private int id;
@@ -63,8 +66,12 @@ public class ConvertListToMapStreamsDemo {
 		// Converting Product List into a Map
 		Map<String, Integer> productPriceMap = productList.stream()
 				.collect(Collectors.toMap(p -> p.getName(), p -> p.getPrice()));
+		
+		productPriceMap.entrySet().stream().sorted(Comparator.comparing(Map.Entry::getValue))
+		.forEach(e -> MyLogger.consoleLogger.info("Key: " + e.getKey() + ", Value: " + e.getValue()));
 
-		System.out.println(productPriceMap);
+		MyLogger.consoleLogger.info("getting forst element: "+productPriceMap.get("Sony mobile"));
+		
 
 	}
 }

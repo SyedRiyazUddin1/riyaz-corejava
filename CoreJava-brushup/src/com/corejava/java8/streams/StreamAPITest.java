@@ -1,6 +1,7 @@
 package com.corejava.java8.streams;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -128,6 +129,23 @@ public class StreamAPITest {
 		
 		//iterating a map
 		mapOfProducts.forEach((key,value)->MyLogger.consoleLogger.info("Emp id: "+key + " Emp Name: "+value));
+		
+		//Get the highest price product details from the list
+		List<Product3> listInDescOrder = listWithTax.stream().sorted((p1,p2)-> p1.getPrice()<p2.getPrice()?1:p1.getPrice()<p2.getPrice()?-1:0).collect(Collectors.toList());
+		MyLogger.consoleLogger.info("Product with high price "+listInDescOrder.get(0));
+		
+		//getting the highest price from Map
+		//converting list to Map first
+		
+		List<Product3> listFromMap = mapOfProducts.entrySet().stream().map(p->p.getValue()).collect(Collectors)
+		
+		int max = Collections.max(mapOfProducts.values());
+		List<Object> listFromMap1 = mapOfProducts.entrySet().stream()
+			    .filter(entry -> entry.getValue() == max)
+			    .map(entry -> entry.getKey())
+			    .collect(Collectors.toList());
+		
+		
 		
 
 	}
