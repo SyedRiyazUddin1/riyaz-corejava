@@ -137,15 +137,15 @@ public class StreamAPITest {
 		//getting the highest price from Map
 		//converting list to Map first
 		
-		List<Product3> listFromMap = mapOfProducts.entrySet().stream().map(p->p.getValue()).collect(Collectors)
+		//List<Product3> listFromMap = mapOfProducts.entrySet().stream().map(p->p.getValue()).collect(Collectors)
 		
-		int max = Collections.max(mapOfProducts.values());
-		List<Object> listFromMap1 = mapOfProducts.entrySet().stream()
-			    .filter(entry -> entry.getValue() == max)
-			    .map(entry -> entry.getKey())
-			    .collect(Collectors.toList());
-		
-		
+//		int max = Collections.max(mapOfProducts.values());
+//		List<Object> listFromMap1 = mapOfProducts.entrySet().stream()
+//			    .filter(entry -> entry.getValue() == max)
+//			    .map(entry -> entry.getKey())
+//			    .collect(Collectors.toList());
+//		
+//		
 		
 
 	}

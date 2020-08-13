@@ -26,7 +26,7 @@ public class SortingMapinAscAndDescDemo {
 		// let's sort this map by values first
 		Map<String, Integer> sorted = budget.entrySet().stream().sorted(comparingByValue())
 				.collect(toMap(e -> e.getKey(), e -> e.getValue(), (e1, e2) -> e2, LinkedHashMap::new));
-		System.out.println("map after sorting by values: " + sorted);
+		System.out.println("map after sorting by values in ascending order: " + sorted);
 
 		// above code can be cleaned a bit by using method reference
 
@@ -37,6 +37,11 @@ public class SortingMapinAscAndDescDemo {
 		sorted = budget.entrySet().stream().sorted(Collections.reverseOrder(Map.Entry.comparingByValue()))
 				.collect(toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new));
 		System.out.println("map after sorting by values in descending order: " + sorted);
+		
+		System.out.println("map after sorting by values in descending order: " + sorted.entrySet().stream());
+		
+		
+	
 	}
 
 }
