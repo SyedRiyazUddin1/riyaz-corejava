@@ -15,6 +15,7 @@ public class PrimeNumberCheck1 {
 				break;
 			}
 		}
+		
 		if (count == 10) {
 			System.out.println("Entered number " + p1 + " is a prime number.");
 		}
