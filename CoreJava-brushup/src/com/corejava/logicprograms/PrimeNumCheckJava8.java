@@ -24,11 +24,10 @@ public class PrimeNumCheckJava8 {
 
 	public static void main(String[] args) {
 		MyLogger.consoleLogger.info("Is the number prime: " + isPrime(81));
-		
-		
-		
-		//Iterating prime numbers from a list of integers
-		List<Integer> myList = Arrays.asList(2,3,7,9,13,16,17,19,21,25,27);
-		
-		List<Integer> newList = myList.stream()LongStream.rangeClosed(2, (int) Math.sqrt(myList)).filter()
+
+//		//Iterating prime numbers from a list of integers
+//		List<Integer> myList = Arrays.asList(2,3,7,9,13,16,17,19,21,25,27);
+//		
+//		List<Integer> newList = myList.stream()LongStream.rangeClosed(2, (int) Math.sqrt(myList)).filter()
+	}
 }
