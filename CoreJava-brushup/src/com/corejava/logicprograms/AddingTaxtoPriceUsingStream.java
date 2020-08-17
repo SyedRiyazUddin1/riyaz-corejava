@@ -50,7 +50,7 @@ public class AddingTaxtoPriceUsingStream {
 
 		MyLogger.consoleLogger.info(productList);
 
-		// adding 500 to all the price
+		// adding 500 to all the price.
 		List<Product1> newList = productList.stream().map(product -> {
 			product.setPrice(product.getPrice() + 500);
 			return product;
@@ -58,7 +58,7 @@ public class AddingTaxtoPriceUsingStream {
 
 		MyLogger.consoleLogger.info("Added 500 to the prices :" + newList);
 
-		// adding 12% tax to the price
+		// adding 12% tax to the price.
 		List<Product1> newList1 = productList.stream().map(product -> {
 			double tax = product.getPrice() * 12 / 100;
 			product.setPrice(product.getPrice() + tax);
@@ -68,7 +68,7 @@ public class AddingTaxtoPriceUsingStream {
 		MyLogger.consoleLogger.info("Adding 12% tax to the prices :" + newList1);
 		
 
-		// changing each product name to UPPERCASE
+		// changing each product name to UPPERCASE.
 		List<Product1> newList2 = productList.stream().map(product -> {
 			product.setName(product.getName().toUpperCase());
 			return product;
