@@ -18,6 +18,7 @@ public class EvenPositionElementsOfArrayDemo {
 		// position 1.
 		for (int i = 1; i < arr.length; i = i + 2) {
 			System.out.println(arr[i]);
-		}
+		} 
+		//End of logic
 	}
 }

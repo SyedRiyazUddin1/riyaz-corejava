@@ -50,7 +50,7 @@ public class AddingTaxtoPriceUsingStream {
 
 		MyLogger.consoleLogger.info(productList);
 
-		// adding 500 to all the price.
+		// adding 500 to all the price
 		List<Product1> newList = productList.stream().map(product -> {
 			product.setPrice(product.getPrice() + 500);
 			return product;
