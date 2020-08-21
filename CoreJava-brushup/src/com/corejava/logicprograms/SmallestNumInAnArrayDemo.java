@@ -15,7 +15,7 @@ public class SmallestNumInAnArrayDemo {
 		int min = arr[0];
 
 		// Logic to get the min number from an array
-	    //Loop through the array
+	    // Loop through the array
 		for (int loop = 0; loop < arr.length; loop++) {
 			//compare elements of array with max
 			if (arr[loop] < min) {
