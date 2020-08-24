@@ -1,6 +1,6 @@
 package com.corejava.logicprograms;
 
-//program to remove space from the beginning and ending if a String
+//program to remove space from the beginning and ending of a String.
 
 import com.corejava.util.MyLogger;
 
@@ -10,7 +10,7 @@ public class RemoveSpaceFromStr {
 
 		String str1 = "    I love Hyderabad   ";
 
-		String str2 = str1.trim();
+		String str2 = str1.trim(); // trim method removes the spaces from beginning and ending of a string
 
 		MyLogger.consoleLogger.info("Lenght of str1 is " + str1.length());
 		MyLogger.consoleLogger.info("Lenght of str1 is " + str2.length());
