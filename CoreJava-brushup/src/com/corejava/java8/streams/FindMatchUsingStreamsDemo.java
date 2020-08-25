@@ -46,12 +46,12 @@ public class FindMatchUsingStreamsDemo {
 
 	public static void main(String[] args) {
 
-		List<Product2> productList = new ArrayList<Product2>();
-		productList.add(new Product2("Redmi Mobile", 30000));
-		productList.add(new Product2("Vivo Mobile", 30000));
-		productList.add(new Product2("iPhone", 60000));
-		productList.add(new Product2("Samsung Note10", 70001));
-		productList.add(new Product2("OnePlus 6T", 38000));
+		List<Product4> productList = new ArrayList<Product4>();
+		productList.add(new Product4("Redmi Mobile", 30000));
+		productList.add(new Product4("Vivo Mobile", 30000));
+		productList.add(new Product4("iPhone", 60000));
+		productList.add(new Product4("Samsung Note10", 70001));
+		productList.add(new Product4("OnePlus 6T", 38000));
 
 		MyLogger.consoleLogger.info(productList);
 
@@ -75,17 +75,17 @@ public class FindMatchUsingStreamsDemo {
 		/**
 		 * findAny : returns any of the matching element of the current stream
 		 */
-		Optional<Product2> productOptional = productList.stream().filter(product -> product.getPrice() >= 30000)
+		Optional<Product4> productOptional = productList.stream().filter(product -> product.getPrice() >= 30000)
 				.findAny();
-		Product2 product = productOptional.orElseThrow(() -> new RuntimeException("No data exist"));
+		Product4 product = productOptional.orElseThrow(() -> new RuntimeException("No data exist"));
 		MyLogger.consoleLogger.info("Elements which are > 30000:" + product);
 
 		/**
 		 * findFirst : find the first element from the stream
 		 */
-		Optional<Product2> productOptional1 = productList.stream().filter(product1 -> product1.getPrice() > 30000)
+		Optional<Product4> productOptional1 = productList.stream().filter(product1 -> product1.getPrice() > 30000)
 				.findFirst();
-		Product2 product2 = productOptional1.orElseThrow(() -> new RuntimeException("No data exist"));
+		Product4 product2 = productOptional1.orElseThrow(() -> new RuntimeException("No data exist"));
 		MyLogger.consoleLogger.info("First element > 30000:" + product2);
 
 		/** */
@@ -93,39 +93,39 @@ public class FindMatchUsingStreamsDemo {
 		/**
 		 * Reducing operations. Summing all the elements
 		 */
-		double sum = productList.stream().map(Product2::getPrice).reduce(0.0, (p1, p2) -> (p1 + p2));
+		double sum = productList.stream().map(Product4::getPrice).reduce(0.0, (p1, p2) -> (p1 + p2));
 		MyLogger.consoleLogger.info("Sum of all the prices: " + sum);
 
 		/**
 		 * Reducing operations. Multiplying all the elements
 		 */
-		double multiply = productList.stream().map(Product2::getPrice).reduce(1.0, (p1, p2) -> (p1 * p2));
+		double multiply = productList.stream().map(Product4::getPrice).reduce(1.0, (p1, p2) -> (p1 * p2));
 		MyLogger.consoleLogger.info("Multiplying all the prices: " + multiply);
 
 		/**
 		 * Reducers without initial value. Multiplying all the elements
 		 */
-		Optional<Double> sum1 = productList.stream().map(Product2::getPrice).reduce((p1, p2) -> (p1 + p2));
+		Optional<Double> sum1 = productList.stream().map(Product4::getPrice).reduce((p1, p2) -> (p1 + p2));
 		MyLogger.consoleLogger.info("Sum of all the prices with reducers(without initial value): " + sum1.orElse(0.0));
 
 		/**
 		 * Reducers using Double class Object
 		 */
-		Optional<Double> sumUsingDoubleClass = productList.stream().map(Product2::getPrice).reduce(Double::sum);
+		Optional<Double> sumUsingDoubleClass = productList.stream().map(Product4::getPrice).reduce(Double::sum);
 		MyLogger.consoleLogger
 				.info("Sum of all the prices using Double class Object: " + sumUsingDoubleClass.orElse(0.0));
 
 		/**
 		 * Getting the minimum value using Double class's min method
 		 */
-		Optional<Double> minValue = productList.stream().map(Product2::getPrice).reduce(Double::min);
+		Optional<Double> minValue = productList.stream().map(Product4::getPrice).reduce(Double::min);
 		MyLogger.consoleLogger
 				.info("Getting the minimum value using Double class's min method: " + minValue.orElse(0.0));
 
 		/**
 		 * Getting the max value using Double class's max method
 		 */
-		Optional<Double> maxValue = productList.stream().map(Product2::getPrice).reduce(Double::max);
+		Optional<Double> maxValue = productList.stream().map(Product4::getPrice).reduce(Double::max);
 		MyLogger.consoleLogger
 				.info("Getting the maximum value using Double class's max method: " + maxValue.orElse(0.0));
 
@@ -142,27 +142,27 @@ public class FindMatchUsingStreamsDemo {
 		 * Summing all the even numbers from the product's prices
 		 */
 		double sum2 = productList.stream().filter(prod -> prod.getPrice() % 2 == 0)
-				.collect(Collectors.summingDouble(Product2::getPrice));
+				.collect(Collectors.summingDouble(Product4::getPrice));
 		MyLogger.consoleLogger.info("Summing all the even numbers from the product's prices: " + sum2);
 
 		/**
 		 * Averaging all the even numbers from the product's prices
 		 */
 		double avg = productList.stream().filter(prod -> prod.getPrice() % 2 == 0)
-				.collect(Collectors.averagingDouble(Product2::getPrice));
+				.collect(Collectors.averagingDouble(Product4::getPrice));
 		MyLogger.consoleLogger.info("Averaging all the even numbers from the product's prices: " + avg);
 
 		/**
 		 * Getting the MAX price from the product's prices
 		 */
-		Comparator<Product2> numComp = Comparator.comparingDouble(p -> p.getPrice());
+		Comparator<Product4> numComp = Comparator.comparingDouble(p -> p.getPrice());
 
-		Optional<Product2> maxPrice = productList.stream().collect(Collectors.maxBy(numComp));
+		Optional<Product4> maxPrice = productList.stream().collect(Collectors.maxBy(numComp));
 		MyLogger.consoleLogger.info("MAX price from the product's list: " + maxPrice);
 		/**
 		 * Getting the MIN price from the product's prices
 		 */
-		Optional<Product2> minPrice = productList.stream().collect(Collectors.minBy(numComp));
+		Optional<Product4> minPrice = productList.stream().collect(Collectors.minBy(numComp));
 		MyLogger.consoleLogger.info("MIN price from the product's list: " + minPrice.orElse(product2));
 
 		/**
@@ -175,7 +175,7 @@ public class FindMatchUsingStreamsDemo {
 		MyLogger.consoleLogger.info("MAX Statistics: " + statistics.getMax());
 
 		// printing the list in descending order based on the price
-		List<Product2> newList = productList.stream().sorted(
+		List<Product4> newList = productList.stream().sorted(
 				(num1, num2) -> (num1.getPrice() < num2.getPrice()) ? 1 : (num1.getPrice() > num2.getPrice()) ? -1 : 0)
 				.collect(Collectors.toList());
 		MyLogger.consoleLogger.info("List in descending order based on the price " + newList);
@@ -206,24 +206,24 @@ public class FindMatchUsingStreamsDemo {
 		MyLogger.consoleLogger.info("Summing objects of similar prices: " + typeMapSumming);
 
 		// Collectors.partioningBy()
-		Map<Boolean, List<Product2>> result = productList.stream()
+		Map<Boolean, List<Product4>> result = productList.stream()
 				.collect(Collectors.partitioningBy(p -> p.getPrice() > 40000));
 		MyLogger.consoleLogger.info("Products with price>40K will come under true, Else, in false: " + result);
 
 		// products starts with R letter
-		List<Product2> pnamesList = productList.stream().filter(p -> p.getName().startsWith("R"))
+		List<Product4> pnamesList = productList.stream().filter(p -> p.getName().startsWith("R"))
 				.collect(Collectors.toList());
 		MyLogger.consoleLogger.info("Product name starts with R :" + pnamesList);
 
 		// products which are on even index number (HAVE TO WORK)
-		List<Product2> evenNumIndexProducts = productList.stream().filter(p -> p.getName().length() % 2 == 0)
+		List<Product4> evenNumIndexProducts = productList.stream().filter(p -> p.getName().length() % 2 == 0)
 				.collect(Collectors.toList());
 		MyLogger.consoleLogger.info("Product name starts with R :" + evenNumIndexProducts);
 
 //		String str[] = {"Avinash Edamadakala Riyaz Uddin"};
 //		List<String> stream = Arrays.asList(str).stream().filter(p->p.indexOf(i%2==0)).collect(Collectors.toList());
 //		
-		List<Product2> pList = productList.stream().filter(p -> p.getPrice() >= 38000).collect(Collectors.toList());
+		List<Product4> pList = productList.stream().filter(p -> p.getPrice() >= 38000).collect(Collectors.toList());
 		MyLogger.consoleLogger.info(pList);
 
 	}

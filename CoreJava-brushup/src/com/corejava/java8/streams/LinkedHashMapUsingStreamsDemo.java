@@ -34,9 +34,9 @@ public class LinkedHashMapUsingStreamsDemo {
 
 		//Note: working on the below logic
 		// adding 10 grace marks to everyone
-		Map<String, Integer> listWithGraceMarks = studentList.entrySet().stream()
-				.map(student -> student.getValue() + 10).collect(Collectors.toMap(e->e.getKey(),
-                        e->e.getValue());
+//		Map<String, Integer> listWithGraceMarks = studentList.entrySet().stream()
+//				.map(student -> student.getValue() + 10).collect(Collectors.toMap(e->e.getKey(),
+//                        e->e.getValue());
 
 	}
 
