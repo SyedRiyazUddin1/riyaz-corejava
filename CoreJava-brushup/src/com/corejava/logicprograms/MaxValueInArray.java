@@ -1,5 +1,5 @@
 package com.corejava.logicprograms;
-//program to find the largest number in an array
+//program to find the largest number in an array.
 
 import java.util.Arrays;
 

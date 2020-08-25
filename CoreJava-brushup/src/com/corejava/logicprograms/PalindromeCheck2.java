@@ -1,5 +1,7 @@
 package com.corejava.logicprograms;
 
+//Program to check whether a string is palindrome or not
+
 public class PalindromeCheck2 {
 
 	public static void main(String[] args) {

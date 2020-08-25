@@ -6,7 +6,7 @@ public class HashMapCloningDemo {
 
 	public static void main(String args[]) {
 
-		// Creating a HashMap of Integer keys and String values
+		// Creating a HashMap of Integer keys and String values.
 		
 		HashMap<Integer, String> hashmap = new HashMap<Integer, String>();
 		hashmap.put(1, "Riyaz");

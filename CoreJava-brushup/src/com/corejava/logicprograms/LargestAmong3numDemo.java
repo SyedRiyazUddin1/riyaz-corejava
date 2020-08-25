@@ -2,7 +2,7 @@ package com.corejava.logicprograms;
 
 import com.corejava.util.MyLogger;
 
-//program to find largest number among the given 3 numbers.
+//program to find largest number among the given 3 numbers
 
 public class LargestAmong3numDemo {
 
