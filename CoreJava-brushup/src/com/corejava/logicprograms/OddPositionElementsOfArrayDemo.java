@@ -2,7 +2,7 @@ package com.corejava.logicprograms;
 
 import com.corejava.util.MyLogger;
 
-//Program to print odd positioned elements in an array
+//Program to print odd positioned elements in an array.
 
 public class OddPositionElementsOfArrayDemo {
 

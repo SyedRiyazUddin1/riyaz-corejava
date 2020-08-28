@@ -1,5 +1,7 @@
 package com.corejava.logicprograms;
 
+//Program to iterate a map using foreach method in Java 8
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

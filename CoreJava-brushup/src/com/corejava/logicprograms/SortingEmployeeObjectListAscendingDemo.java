@@ -1,7 +1,7 @@
 package com.corejava.logicprograms;
 
 
-//sorting the Employee object's list and printing in ascending order based on the employee id
+//sorting the Employee object's list and printing in ascending order based on the employee id..
 
 import java.util.ArrayList;
 import java.util.Collections;

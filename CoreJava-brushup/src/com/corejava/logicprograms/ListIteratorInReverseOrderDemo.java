@@ -1,12 +1,15 @@
 package com.corejava.logicprograms;
 
 import java.util.Arrays;
+
+//Java Program to iterate List in reverse order.
+
 import java.util.List;
 import java.util.ListIterator;
 
 public class ListIteratorInReverseOrderDemo {
 
-	// Java Program to iterate List in reverse order
+	
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList("C", "C++", "Java");
 
