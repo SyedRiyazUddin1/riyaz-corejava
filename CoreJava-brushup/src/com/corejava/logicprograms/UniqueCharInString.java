@@ -10,15 +10,16 @@ public class UniqueCharInString {
 
 		System.out.println("String: " + inputstring);
 
-		//initializing the variable.
+		//initializing the variable
+		
 		boolean result = false;
 		
 		//creating a hashset.
-		HashSet<Character> uniquecharset = new HashSet();
+		HashSet<Character> uniqueCharset = new HashSet();
 		
 		//adding all the charac from the string to a hash set
 		for (int i = 0; i < inputstring.length(); i++) {
-			result = uniquecharset.add(inputstring.charAt(i));
+			result = uniqueCharset.add(inputstring.charAt(i));
 			if (result == false)
 				break;
 		}

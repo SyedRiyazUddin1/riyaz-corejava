@@ -1,6 +1,6 @@
 package com.corejava.logicprograms;
 
-//swapping the numbers
+//swapping the numbers by taking the inputs from the user.
 import java.util.Scanner;
 
 import com.corejava.util.MyLogger;

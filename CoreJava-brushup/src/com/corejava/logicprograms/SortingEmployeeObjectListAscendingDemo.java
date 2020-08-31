@@ -1,8 +1,7 @@
 package com.corejava.logicprograms;
 
 
-//sorting the Employee object's list and printing in ascending order based on the employee id..
-
+//sorting the Employee object's list and printing in ascending order based on the employee id.
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -37,7 +36,7 @@ public class SortingEmployeeObjectListAscendingDemo {
 
 		MyLogger.consoleLogger.info(myList);
 
-		// sorting list using Comparator and lambda expression
+		// sorting list using Comparator and Lambda expression
 		Collections.sort(myList, (e1, e2) -> (e1.eno < e2.eno) ? -1 : (e1.eno > e2.eno) ? 1 : 0);
 
 		MyLogger.consoleLogger.info("Sorted list " + myList);
