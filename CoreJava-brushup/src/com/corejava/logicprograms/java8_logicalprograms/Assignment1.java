@@ -27,7 +27,7 @@ public class Assignment1 {
                 //filtering the numbers which are divisible by 3
                 .filter(num -> num % 3 == 0)
                 .collect(Collectors.toList());
-        MyLogger.consoleLogger.info("numbers in the list which are divisible by 3: "+numList);
+        MyLogger.consoleLogger.info("numbers in the list which are divisible by 3: " + numList);
 
         /**
          * ASSIGNMENT-2:
@@ -38,11 +38,15 @@ public class Assignment1 {
 
 
         List<Integer> numList1 = strList.stream()
-                .map(num->Integer.parseInt(num))
-                .filter(num->num<20)
-                .filter(num->num%2==0)
+                //converting Strings to Integer
+                .map(num -> Integer.parseInt(num))
+                //filtering the list
+                .filter(num -> num < 20 && num % 2 == 0)
                 .collect(Collectors.toList());
-        MyLogger.consoleLogger.info("numbers in the list which are even and are less than 20: "+numList1);
+        MyLogger.consoleLogger.info("numbers in the list which are even and are less than 20: " + numList1);
+
+        numList1.removeIf(num -> num < 10);
+        MyLogger.consoleLogger.info("remove the elements less than 10: " + numList1);
 
 
     }

@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /*
- * Program of printing the duplicates from an array of Integers
+ * Program of printing the duplicates from an array of Integers.
  */
 
 public class DuplicatesPrintingFromListDemo {

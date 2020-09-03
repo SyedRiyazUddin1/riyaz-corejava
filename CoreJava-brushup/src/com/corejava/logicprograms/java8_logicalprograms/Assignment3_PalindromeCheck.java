@@ -32,12 +32,15 @@ public class Assignment3_PalindromeCheck {
 
     //method which returns the Palindrome Strings
     static boolean isPalindrome(String str) {
-        int len = str.length();
+
         // compare each character from starting
         // with its corresponding character from last
-        for (int i = 0; i < len / 2; i++)
-            if (str.charAt(i) != str.charAt(len - i - 1))
-                return false;
-        return true;
+
+        //   m o m
+        //   0 1 2 index
+        for (int i = 0; i < str.length() / 2; i++)
+            if (str.charAt(i) == str.charAt(str.length() - i - 1))
+                return true;
+        return false;
     }
 }
