@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 /**
  * Write a Java 8 program to sort an array
- * and then convert the sorted array into Stream?
+ * and then convert the sorted array into Stream?/
  */
 
 public class Assignment6 {
