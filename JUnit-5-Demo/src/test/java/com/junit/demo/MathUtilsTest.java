@@ -19,13 +19,13 @@ import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.condition.EnabledOnOs;
 import org.junit.jupiter.api.condition.OS;
 
-//this annotation creates only one instance for all the methods
+//this annotation creates only one instance for all the methods.
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class MathUtilsTest {
 
 	MathUtils mathUtils;
 
-	// this method runs before all the other methods
+	// this method runs before all the other methods.
 	@BeforeAll
 	static void beforeAllInit() {
 		System.out.println("This needs to run before all");
@@ -41,7 +41,7 @@ class MathUtilsTest {
 	}
 
 	// this method runs before each method (i.e., creating new MathUtils instance
-	// for all the methods)
+	// for all the methods).
 	@BeforeEach
 	void init() {
 		mathUtils = new MathUtils();
@@ -63,7 +63,7 @@ class MathUtilsTest {
 
 	// test for divide method
 	@Test
-	@Tag("Math") // helps in runnning only selective tests which has a tag,can selective in the
+	@Tag("Math") // helps in runnning only selective tests which has a tag,can select in the
 					// IDE configuration
 	void testDevide() {
 		assertThrows(ArithmeticException.class, () -> mathUtils.divide(1, 0), "Divide by zero should throw");
