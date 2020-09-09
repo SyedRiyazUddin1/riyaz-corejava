@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /*
- * Program of printing the duplicates from an array of Integers.
+ * Program of printing the duplicates from an array of Integers
  */
 
 public class DuplicatesPrintingFromListDemo {
@@ -16,7 +16,7 @@ public class DuplicatesPrintingFromListDemo {
         Integer[] numbers = new Integer[]{1, 2, 1, 3, 4, 4};
         Set<Integer> allItems = new HashSet<>();
 
-        // Set.add() returns false if the item was already in the set.
+        // Set.add() returns false if the item was already in the set
 
         Set<Integer> duplicates =
                 Arrays.stream(numbers)

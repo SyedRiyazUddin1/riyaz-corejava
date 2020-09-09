@@ -63,7 +63,7 @@ public class SalaryIncrementDemo {
 
         List<Employee> newListWithUpdatedSalary =
                 empList.stream().map(emp -> {
-                    emp.setEmpSalary(emp.getEmpSalary() +4000);
+                    emp.setEmpSalary(emp.getEmpSalary() +4000); //adding 4000 to the salaries of all the employies
                     return emp;
                 }).collect(Collectors.toList());
         MyLogger.consoleLogger.info(newListWithUpdatedSalary);
