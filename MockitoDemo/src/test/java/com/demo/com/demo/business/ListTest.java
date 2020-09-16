@@ -1,11 +1,15 @@
 package com.demo.com.demo.business;
 
 import org.junit.Test;
+import org.mockito.Mockito;
 
 import java.util.List;
 
 import static junit.framework.TestCase.assertTrue;
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -41,11 +45,26 @@ public class ListTest {
     }
 
     //throwing an exception
-    @Test(expected = RuntimeException.class) //using Junit feature here
+    @Test(expected = RuntimeException.class) //using Junit feature here,
+    // without this expected tag, the test will fail
     public void letsMock_throwAnException() {
         List listMock = mock(List.class);
         when(listMock.get(anyInt())).thenThrow(new RuntimeException("Something!"));
         listMock.get(0);
+    }
+
+    @Test
+    public void letsMockListGet_UsingBDD() {
+        //Given (mock where everything is returning "DummyReturn")
+        List<String> listMock = mock(List.class);
+        given(listMock.get(anyInt())).willReturn("DummyReturn");
+
+        //When  (getting the first element)
+        String firstElement = listMock.get(0);
+
+        //Then
+        assertThat(firstElement, is("DummyReturn"));
+
     }
 
 
