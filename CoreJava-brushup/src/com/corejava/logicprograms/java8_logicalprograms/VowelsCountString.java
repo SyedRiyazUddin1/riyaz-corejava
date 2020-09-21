@@ -13,7 +13,7 @@ public class VowelsCountString {
 
         String myStr = "How are you doing? Hope everything is fine";
 
-        //filtering the words which starts with vowels
+        //filtering the words which starts with vowels.
         String myArray [] = Arrays.stream(myStr.split(" "))
                 .filter(ch->ch.startsWith("a")
                         ||ch.startsWith("e")
@@ -25,7 +25,7 @@ public class VowelsCountString {
             MyLogger.consoleLogger.info(str);
         }
 
-        //counting the words which starts with vowel
+        //counting the words which starts with vowel.
         Stream<String> myStream = Stream.of(myArray);
 
         MyLogger.consoleLogger.info("count of words which starts with vowel: "+myStream.count());

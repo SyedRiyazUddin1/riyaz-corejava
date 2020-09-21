@@ -56,9 +56,9 @@ public class SalaryIncrementDemo {
 
         List<Employee> empList = new ArrayList<>();
         empList.add(new Employee("Syed Riyaz", 101, 15000));
-        empList.add(new Employee("Avinash Edamadakala", 101, 11000));
-        empList.add(new Employee("Rohit Mudunuri", 101, 8000));
-        empList.add(new Employee("Zeeshan Khan", 101, 7000));
+        empList.add(new Employee("Avinash Edamadakala", 102, 11000));
+        empList.add(new Employee("Rohit Mudunuri", 103, 8000));
+        empList.add(new Employee("Zeeshan Khan", 104, 7000));
         MyLogger.consoleLogger.info(empList);
 
         List<Employee> newListWithUpdatedSalary =

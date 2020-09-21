@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- * Program to filter the prime numbers from a list
+ * Program to filter the prime numbers from a list.
  */
 
 public class PrimeNumCheck {
@@ -26,7 +26,7 @@ public class PrimeNumCheck {
         MyLogger.consoleLogger.info("Prime numbers in the list are: " + newList);
     }
 
-    //method which filter the prime numbers
+    //method which filter the prime numbers.
 
     public static boolean isPrime(int number) {
         return IntStream.rangeClosed(2, number / 2).noneMatch(i -> number % i == 0);

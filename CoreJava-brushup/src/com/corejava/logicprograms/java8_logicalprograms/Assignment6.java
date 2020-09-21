@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 /**
  * Write a Java 8 program to sort an array
- * and then convert the sorted array into Stream?/
+ * and then convert the sorted array into Stream?.
  */
 
 public class Assignment6 {
@@ -26,9 +26,11 @@ public class Assignment6 {
         IntStream stream1 = Arrays.stream(myArray);
         //stream1.forEach(num -> System.out.println(num));
 
-        OptionalInt firstElement = stream1.filter(num -> num < 5).findFirst();
+        OptionalInt firstElement = stream1
+                .filter(num -> num < 5)
+                .findFirst();
         MyLogger.consoleLogger.info(firstElement);
-        //returns OptionalInt.empty cause there is no element less than 5
+        //returns OptionalInt.empty cause there is no element less than 5.
 
 
     }
