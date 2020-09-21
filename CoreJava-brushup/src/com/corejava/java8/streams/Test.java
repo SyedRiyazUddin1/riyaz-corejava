@@ -2,6 +2,7 @@ package com.corejava.java8.streams;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -59,9 +60,13 @@ public class Test {
         List<Employee12> employeeList = new ArrayList<>();
 
         employeeList.add(new Employee12("Syed", 109, 3700.0));
-        employeeList.add(new Employee12("Riyaz", 102, 4500.0));
-        employeeList.add(new Employee12("Uddin", 101, 3700.0));
-        employeeList.add(new Employee12("Avinash", 104, 2200.0));
+        employeeList.add(new Employee12("Riyaz", 102, 45000.0));
+        employeeList.add(new Employee12("Uddin", 101, 370000.0));
+        employeeList.add(new Employee12("Avinash", 104, 21000.0));
+        employeeList.add(new Employee12("Virat", 105, 25000.0));
+        employeeList.add(new Employee12("Rohit", 106, 16000.0));
+        employeeList.add(new Employee12("Zeeshan", 107, 19000.0));
+        employeeList.add(new Employee12("Avinash", 108, 16000.0));
 
 
         //getting the employee details who hs 2nd least salary
@@ -88,7 +93,7 @@ public class Test {
         ).collect(Collectors.toList());
         MyLogger.consoleLogger.info("ist by sorting the employee id in ascending order: " + myList2);
 
-        //add 12% hike in the salaries of all the employees
+        //add 12% hike in the salaries of all the employees.
 
         List<Employee12> myList3 = employeeList.stream()
                 .map(
@@ -102,6 +107,17 @@ public class Test {
         MyLogger.consoleLogger.info("employee list with 12% hike in the salaries: " + myList3);
 
 
+        //group the employees who has same name
+
+        Map<Object, Long> empWithSameNamesCount = employeeList.stream()
+                .collect(Collectors.groupingBy(emp -> emp.getName(), Collectors.counting()));
+        MyLogger.consoleLogger.info("count of employees who has same name " + empWithSameNamesCount);
+
+        //get the employees who has salaries greater than 20000
+
+        List<Employee12> empSalariesGreaterThn20K = employeeList.stream().filter(emp -> emp.getSalary() > 20000)
+                .collect(Collectors.toList());
+        MyLogger.consoleLogger.info("Employees with salary>20K: " + empSalariesGreaterThn20K);
     }
 
 }
