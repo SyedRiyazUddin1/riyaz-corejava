@@ -1,5 +1,7 @@
 package com.corejava.java8.optionalclass;
 
+//implementing Optional Class
+
 import com.corejava.util.MyLogger;
 
 import java.util.ArrayList;
@@ -20,7 +22,7 @@ public class OptionalDemo1 {
 
         Optional<Item> newItemList = itemList.stream()
                 .filter(item->item.getItemId()>104) //Instead of null pointer exception, it will return Optional.empty
-                .findFirst(); //finds the first given element in the filter
+                .findFirst(); //finds the first given element in the filter.
         MyLogger.consoleLogger.info("Using findFirst :"+newItemList);
 
         Item item = newItemList.orElseThrow(()
