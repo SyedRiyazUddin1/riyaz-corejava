@@ -160,7 +160,7 @@ public class FindMatchUsingStreamsDemo {
 		Optional<Product4> maxPrice = productList.stream().collect(Collectors.maxBy(numComp));
 		MyLogger.consoleLogger.info("MAX price from the product's list: " + maxPrice);
 		/**
-		 * Getting the MIN price from the product's prices
+		 * Getting the MIN price from the product's prices.
 		 */
 		Optional<Product4> minPrice = productList.stream().collect(Collectors.minBy(numComp));
 		MyLogger.consoleLogger.info("MIN price from the product's list: " + minPrice.orElse(product2));
@@ -205,7 +205,7 @@ public class FindMatchUsingStreamsDemo {
 				.collect(Collectors.groupingBy(p -> p.getPrice(), Collectors.summingDouble(p -> p.getPrice())));
 		MyLogger.consoleLogger.info("Summing objects of similar prices: " + typeMapSumming);
 
-		// Collectors.partioningBy()
+		// .. Collectors.partioningBy()
 		Map<Boolean, List<Product4>> result = productList.stream()
 				.collect(Collectors.partitioningBy(p -> p.getPrice() > 40000));
 		MyLogger.consoleLogger.info("Products with price>40K will come under true, Else, in false: " + result);
@@ -215,7 +215,7 @@ public class FindMatchUsingStreamsDemo {
 				.collect(Collectors.toList());
 		MyLogger.consoleLogger.info("Product name starts with R :" + pnamesList);
 
-		// products which are on even index number (HAVE TO WORK)
+		// products which are on even index number (HAVE TO WORK)..
 		List<Product4> evenNumIndexProducts = productList.stream().filter(p -> p.getName().length() % 2 == 0)
 				.collect(Collectors.toList());
 		MyLogger.consoleLogger.info("Product name starts with R :" + evenNumIndexProducts);
