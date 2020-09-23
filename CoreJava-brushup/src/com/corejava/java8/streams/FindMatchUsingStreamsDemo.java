@@ -1,5 +1,7 @@
 package com.corejava.java8.streams;
 
+//Implementing Stream API methods in this class
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.DoubleSummaryStatistics;
@@ -60,7 +62,7 @@ public class FindMatchUsingStreamsDemo {
 		boolean anyMatchStatus = productList.stream().anyMatch(list -> list.getPrice() == 60000);
 		MyLogger.consoleLogger.info("Any product with price 60000 :" + anyMatchStatus);
 
-		/** allMatch (checking to see if predicate matches with all the elements) */
+		/** allMatch (checking to see if predicate matches with all the elements). */
 
 		boolean allMatchStatus = productList.stream().allMatch(list -> list.getPrice() >= 30000);
 		MyLogger.consoleLogger.info("If all the Product's price >=30000 :" + allMatchStatus);
@@ -91,7 +93,7 @@ public class FindMatchUsingStreamsDemo {
 		/** */
 
 		/**
-		 * Reducing operations. Summing all the elements
+		 * Reducing operations. Summing all the elements.
 		 */
 		double sum = productList.stream().map(Product4::getPrice).reduce(0.0, (p1, p2) -> (p1 + p2));
 		MyLogger.consoleLogger.info("Sum of all the prices: " + sum);
@@ -210,12 +212,12 @@ public class FindMatchUsingStreamsDemo {
 				.collect(Collectors.partitioningBy(p -> p.getPrice() > 40000));
 		MyLogger.consoleLogger.info("Products with price>40K will come under true, Else, in false: " + result);
 
-		// products starts with R letter
+		// products starts with R letter.
 		List<Product4> pnamesList = productList.stream().filter(p -> p.getName().startsWith("R"))
 				.collect(Collectors.toList());
 		MyLogger.consoleLogger.info("Product name starts with R :" + pnamesList);
 
-		// products which are on even index number (HAVE TO WORK)..
+		// products which are on even index number (HAVE TO WORK).
 		List<Product4> evenNumIndexProducts = productList.stream().filter(p -> p.getName().length() % 2 == 0)
 				.collect(Collectors.toList());
 		MyLogger.consoleLogger.info("Product name starts with R :" + evenNumIndexProducts);
